@@ -7,10 +7,10 @@ Contact the [manufacturer](https://holybro.com/) for hardware support or complia
 
 _Pixhawk 6C Mini_<sup>&reg;</sup> is the latest update to the successful family of Pixhawk® flight controllers designed and made in collaboration with Holybro<sup>&reg;</sup> and the PX4 team.
 
-It is equipped with a high performance H7 Processor, and comes with IMU redundancy, temperature-controlled IMU board, and cost effective design, delivering incredible performance and reliability.
+It is equipped with a high performance H7 Processor and comes with IMU redundancy, temperature-controlled IMU board, and cost effective design, delivering incredible performance and reliability.
 It complies with the Pixhawk [Connector Standard](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf).
 
-![Pixhawk6c mini Upright Image](../../assets/flight_controller/pixhawk6c_mini/pixhawk6c_mini_hero.jpg)
+![Pixhawk6c mini A&B Image](../../assets/flight_controller/pixhawk6c_mini/HB_6C_MINI-A_B.jpg)
 
 :::tip
 This autopilot is [supported](../flight_controller/autopilot_pixhawk_standard.md) by the PX4 maintenance and test teams.
@@ -22,13 +22,13 @@ The Pixhawk® 6C Mini is the latest update to the successful family of Pixhawk®
 
 Inside the Pixhawk® 6C Mini, you can find an STMicroelectronics® based STM32H743, paired with sensor technology from Bosch® & InvenSense®, giving you flexibility and reliability for controlling any autonomous vehicle, suitable for both academic and commercial applications.
 
-The Pixhawk® 6C Mini's H7 microcontroller contain the Arm® Cortex®-M7 core running up to 480 MHz, has 2MB flash memory and 1MB RAM.
+The Pixhawk® 6C Mini's H7 microcontroller contain the Arm® Cortex®-M7 core running up to 480 MHz, and has 2MB flash memory and 1MB RAM.
 Thanks to the updated processing power, developers can be more productive and efficient with their development work, allowing for complex algorithms and models.
 
 The Pixhawk 6C Mini includes high-performance, low-noise IMUs on board, designed to be cost effective while having IMU redundancy.
 A vibration isolation System to filter out high-frequency vibration and reduce noise to ensure accurate readings, allowing vehicles to reach better overall flight performances.
 
-The Pixhawk® 6C Mini is perfect for developers at corporate research labs, startups, academics (research, professors, students), and commercial application.
+The Pixhawk® 6C Mini is perfect for developers at corporate research labs, startups, academics (research, professors, students), and commercial applications.
 
 **Key Design Points**
 
@@ -64,7 +64,7 @@ The Pixhawk® 6C Mini is perfect for developers at corporate research labs, star
 ### **Mechanical data**
 
 - Dimensions: 53.3 x 39 x 16.2 mm
-- Weight : 39.2g
+- Weight: 39.2g
 
 ### **Interfaces**
 
