@@ -116,7 +116,8 @@ Please refer to the [Pixhawk 4 Mini Wiring Quick Start](../assembly/quick_start_
 
 ## Dimensions
 
-![Pixhawk6c Mini Dimensions](../../assets/flight_controller/pixhawk6c_mini/pixhawk_6c_mini_dimension.jpg)
+![Pixhawk6c Mini A Dimensions](../../assets/flight_controller/pixhawk6c_mini/pixhawk_6c_mini_dimension.jpg)
+![Pixhawk6c Mini B Dimensions](../../assets/flight_controller/pixhawk6c_mini/pixhawk_6c_mini_b_dimensions.jpg)
 
 ## Voltage Ratings
 
@@ -124,14 +125,14 @@ _Pixhawk 6C Mini_ can be double-redundant on the power supply if two power sourc
 
 **Normal Operation Maximum Ratings**
 
-Under these conditions all power sources will be used in this order to power the system:
+Under these conditions, all power sources will be used in this order to power the system:
 
 1. **POWER1** inputs (4.9V to 5.5V)
 1. **USB** input (4.75V to 5.25V)
 
 **Absolute Maximum Ratings**
 
-Under these conditions the system will not draw any power (will not be operational), but will remain intact.
+Under these conditions, the system will not draw any power (will not be operational), but will remain intact.
 
 1. **POWER1** inputs (operational range 4.1V to 5.7V, 0V to 10V undamaged)
 1. **USB** input (operational range 4.1V to 5.7V, 0V to 6V undamaged)
