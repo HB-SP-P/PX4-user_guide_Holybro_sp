@@ -11,13 +11,13 @@ It is based on the [Pixhawk​​® Autopilot FMUv6X Standard](https://github.co
 
 Equipped with a high-performance H7 Processor, modular design, triple redundancy, temperature-controlled IMU board, and isolated sensor domains, delivering incredible performance, reliability, and flexibility.
 
-### Pixhawk 6X (Rev 3/4, discontinued)
-
-<img src="../../assets/flight_controller/pixhawk6x/pixhawk6x_hero_upright.png" width="230px" title="Pixhawk6X Upright Image" /> <img src="../../assets/flight_controller/pixhawk6x/pixhawk6x_exploded_diagram.png" width="400px" title="Pixhawk6X Exploded Image" />
-
 ### Pixhawk 6X (Rev 8)
 
 <img src="../../assets/flight_controller/pixhawk6x/HB_6X_rev8_V2A.png" width="420px"/><img src="../../assets/flight_controller/pixhawk6x/hb_6x_internal_v2.png" width="300px"/>
+
+#### Pixhawk 6X (Rev 3/4, discontinued)
+
+<img src="../../assets/flight_controller/pixhawk6x/pixhawk6x_hero_upright.png" width="150px" title="Pixhawk6X Upright Image" /> <img src="../../assets/flight_controller/pixhawk6x/pixhawk6x_exploded_diagram.png" width="280px" title="Pixhawk6X Exploded Image" />
 
 ### Pixhawk 6X (ICM-45686)
 
