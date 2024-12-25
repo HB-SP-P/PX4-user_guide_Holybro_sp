@@ -75,7 +75,7 @@ The Pixhawk®​ 6X is perfect for developers at corporate research labs, startu
   - 32 Bit Arm® Cortex®-M7, 480MHz, 2MB flash memory, 1MB RAM
 - IO Processor: STM32F100
   - 32 Bit Arm® Cortex®-M3, 24MHz, 8KB SRAM
-- On-board sensors (Shipping Currently, Rev8)
+- On-board sensors (Shipping Currently, Rev 8)
   - Accel/Gyro: 3x ICM-45686 (with BalancedGyro™ Technology)
   - Barometer: ICP20100 & BMP388
   - Mag: BMM150
