@@ -19,7 +19,7 @@ Equipped with a high-performance H7 Processor, modular design, triple redundancy
 
 <img src="../../assets/flight_controller/pixhawk6x/pixhawk6x_hero_upright.png" width="150px" title="Pixhawk6X Upright Image" /> <img src="../../assets/flight_controller/pixhawk6x/pixhawk6x_exploded_diagram.png" width="280px" title="Pixhawk6X Exploded Image" />
 
-### Pixhawk 6X (ICM-45686)
+### Pixhawk 6X Baseboards
 
 :::: tabs
 
