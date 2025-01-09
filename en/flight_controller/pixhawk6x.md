@@ -25,18 +25,28 @@ Equipped with a high-performance H7 Processor, modular design, triple redundancy
 
 ::: tab Standard v2A
 
-![Pixhawk 6X Standard v2A](../../assets/flight_controller/pixhawk6x/pixhawk6x_icm_v2a.webp)
+![Pixhawk 6X Standard v2A](../../assets/flight_controller/pixhawk6x/HB_PH6X_V2A.jpg)
 
 :::
 
 ::: tab Standard v2B
 
-![Pixhawk 6X Standard v2B](../../assets/flight_controller/pixhawk6x/pixhawk6x_icm_v2b.webp)
+![Pixhawk 6X Standard v2B](../../assets/flight_controller/pixhawk6x/HB_PH6X_V2B.jpg)
 :::
 
 ::: tab Mini
 
-![Pixhawk 6X Mini](../../assets/flight_controller/pixhawk6x/pixhawk6x_icm_mini.webp)
+![Pixhawk 6X Mini](../../assets/flight_controller/pixhawk6x/HB_PH6X_Mini.jpg)
+:::
+
+::: tab Jetson Baseboard
+
+![Jetson Baseboard](../../assets/flight_controller/pixhawk6x/HB_Jetson_BB.jpg)
+:::
+
+::: tab CM4 Baseboard
+
+![Pixhawk 6X CM4](../../assets/flight_controller/pixhawk6x/HB_PH6X_CM4.jpg)
 :::
 
 ::::
