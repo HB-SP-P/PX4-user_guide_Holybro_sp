@@ -21112,6 +21112,16 @@ Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &nbsp; | 2 | 20 |  | 6.00 | m/s 
 
+### LNDFW_ROT_MAX (`FLOAT`) {#LNDFW_ROT_MAX}
+
+Fixed-wing land detector: max rotational speed.
+
+Maximum allowed norm of the angular velocity in the landed state.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; |  |  |  | 0.5 | deg/s 
+
 ### LNDFW_TRIG_TIME (`FLOAT`) {#LNDFW_TRIG_TIME}
 
 Fixed-wing land detection trigger time.
@@ -21164,9 +21174,9 @@ Reboot | minValue | maxValue | increment | default | unit
 
 ### LNDMC_ROT_MAX (`FLOAT`) {#LNDMC_ROT_MAX}
 
-Multicopter max rotation.
+Multicopter max rotational speed.
 
-Maximum allowed angular velocity around each axis allowed in the landed state.
+Maximum allowed norm of the angular velocity (roll, pitch) in the landed state.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
@@ -26508,7 +26518,7 @@ Reboot | minValue | maxValue | increment | default | unit
 
 RTL precision land mode.
 
-Use precision landing when doing an RTL landing phase.
+Use precision landing when doing an RTL landing phase. This setting does not apply for RTL destinations planned as part of a mission.
 
 **Values:**
 
