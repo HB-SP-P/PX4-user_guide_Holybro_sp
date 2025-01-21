@@ -16194,7 +16194,7 @@ Limit for fog detection. If the range finder measures a distance greater than th
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0.0 | 20.0 |  | 1.0 | m 
+&nbsp; | 0.0 | 20.0 |  | 3.0 | m 
 
 ### EKF2_RNG_GATE (`FLOAT`) {#EKF2_RNG_GATE}
 
@@ -18352,6 +18352,36 @@ Defines the collective pitch at the interval position 4 for a given thrust setpo
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &nbsp; | -1 | 1 | 0.1 | 0.45 |  
+
+### CA_HELI_RPM_I (`FLOAT`) {#CA_HELI_RPM_I}
+
+Integral gain for rpm control.
+
+Same definition as the proportional gain but for integral.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 10 | 0.1 | 0.0 |  
+
+### CA_HELI_RPM_P (`FLOAT`) {#CA_HELI_RPM_P}
+
+Proportional gain for rpm control.
+
+Ratio between rpm error devided by 1000 to how much normalized output gets added to correct for it. motor_command = throttle_curve + CA_HELI_RPM_P * (rpm_setpoint - rpm_measurement) / 1000
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 10 | 0.1 | 0.0 |  
+
+### CA_HELI_RPM_SP (`FLOAT`) {#CA_HELI_RPM_SP}
+
+Setpoint for main rotor rpm.
+
+Requires rpm feedback for the controller.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 100 | 10000 | 1 | 1500 |  
 
 ### CA_HELI_THR_C0 (`FLOAT`) {#CA_HELI_THR_C0}
 
@@ -24057,6 +24087,16 @@ Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &nbsp; | 0.0 | 0.6 | 0.01 | 0.2 |  
 
+### MC_YAW_TQ_CUTOFF (`FLOAT`) {#MC_YAW_TQ_CUTOFF}
+
+Low pass filter cutoff frequency for yaw torque setpoint.
+
+Reduces vibrations by lowering high frequency torque caused by rotor acceleration. 0 disables the filter
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 10 |  | 2. | Hz 
+
 ### MC_YR_INT_LIM (`FLOAT`) {#MC_YR_INT_LIM}
 
 Yaw rate integrator limit.
@@ -25415,8 +25455,6 @@ Reboot | minValue | maxValue | increment | default | unit
 
 AUX1 Passthrough RC channel.
 
-Default function: Camera pitch
-
 **Values:**
 
 - `0`: Unassigned
@@ -25448,8 +25486,6 @@ Reboot | minValue | maxValue | increment | default | unit
 
 AUX2 Passthrough RC channel.
 
-Default function: Camera roll
-
 **Values:**
 
 - `0`: Unassigned
@@ -25480,8 +25516,6 @@ Reboot | minValue | maxValue | increment | default | unit
 ### RC_MAP_AUX3 (`INT32`) {#RC_MAP_AUX3}
 
 AUX3 Passthrough RC channel.
-
-Default function: Camera azimuth / yaw
 
 **Values:**
 
@@ -32833,6 +32867,7 @@ Vehicle type.
 - `0`: Multicopter
 - `1`: Fixed-Wing
 - `2`: Tailsitter
+- `3`: Standard VTOL
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -33087,9 +33122,9 @@ Reboot | minValue | maxValue | increment | default | unit
 
 ### SYS_HAS_MAG (`INT32`) {#SYS_HAS_MAG}
 
-Control if the vehicle has a magnetometer.
+Control if and how many magnetometers are expected.
 
-Set this to 0 if the board has no magnetometer. If set to 0, the preflight checks will not check for the presence of a magnetometer, otherwise N sensors are required.
+0: System has no magnetometer, preflight checks should pass without one. 1-N: Require the presence of N magnetometer sensors for check to pass.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
@@ -36589,7 +36624,7 @@ Reboot | minValue | maxValue | increment | default | unit
 
 Minimum pitch angle during hover.
 
-Any pitch setpoint below this value is translated to a forward force by the fixed-wing forward actuation if VT_FW_TRHUST_EN is set to 1.
+Any pitch setpoint below this value is translated to a forward force by the fixed-wing forward actuation if VT_FWD_TRHUST_EN is set.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
