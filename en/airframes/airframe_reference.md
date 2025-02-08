@@ -45,6 +45,28 @@ div.frame_variant td, div.frame_variant th {
 }
 </style>
 
+## 2D Space Robot
+
+### Space Robot
+
+<div class="frame_common">
+<img src="../../assets/airframes/types/AirframeUnknown.svg"/>
+</div>
+
+<div class="frame_variant">
+<table>
+ <thead>
+   <tr><th>Name</th><th></th></tr>
+ </thead>
+<tbody>
+<tr id="2d_space_robot_space_robot_kth_space_robot">
+ <td>KTH Space Robot</td>
+ <td>Maintainer: DISCOWER<p><code>SYS_AUTOSTART</code> = 70000</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+
 ## Airship
 
 ### Airship
@@ -702,7 +724,7 @@ div.frame_variant td, div.frame_variant th {
 </tr>
 <tr id="vtol_simulation_sih_standard_vtol_quadplane">
  <td>SIH Standard VTOL QuadPlane</td>
- <td>Maintainer: John Doe &lt;john@example.com&gt;<p><code>SYS_AUTOSTART</code> = 1103</p><br><b>Specific Outputs:</b><ul><li><b>Motor1</b>: MC motor front right</li><li><b>Motor2</b>: MC motor back left</li><li><b>Motor3</b>: MC motor front left</li><li><b>Motor4</b>: MC motor back right</li><li><b>Motor5</b>: Forward thrust motor</li><li><b>Servo1</b>: Aileron</li><li><b>Servo2</b>: Elevator</li><li><b>Servo3</b>: Rudder</li></ul></td>
+ <td>Maintainer: John Doe &lt;john@example.com&gt;<p><code>SYS_AUTOSTART</code> = 1103</p><br><b>Specific Outputs:</b><ul><li><b>Motor1</b>: MC motor front right</li><li><b>Motor2</b>: MC motor back left</li><li><b>Motor3</b>: MC motor front left</li><li><b>Motor4</b>: MC motor back right</li><li><b>Motor5</b>: Forward thrust motor</li><li><b>Servo1</b>: Ailerons (single channel)</li><li><b>Servo2</b>: Elevator</li><li><b>Servo3</b>: Rudder</li></ul></td>
 </tr>
 </tbody>
 </table>

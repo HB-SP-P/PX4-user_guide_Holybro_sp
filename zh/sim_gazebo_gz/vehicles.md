@@ -69,7 +69,7 @@ It has a range between 0.1 and 100m.
 The model can be used for testing [rangefinder](../sensor/rangefinders.md) use cases like [landing](../flight_modes_mc/land.md) or [terrain following](../flying/terrain_following_holding.md).
 
 ```sh
-make px4_sitl gz_x500_lidar_front
+make px4_sitl gz_x500_lidar_down
 ```
 
 ![x500 with down-facing 1D LIDAR in Gazebo](../../assets/simulation/gazebo/vehicles/x500_lidar_down.png)
@@ -109,7 +109,7 @@ The sensor information is written to the [ObstacleDistance](../msg_docs/Obstacle
 This model has a [gimbal](../advanced/gimbal_control.md) attached to the front with angular ranges of
 
 - roll: [- $\frac{\pi}{4}$, $\frac{\pi}{4}$]
-- pitch: [- $frac{3\pi}{4}$, $\frac{\pi}{4}$]
+- pitch: [- $\frac{3\pi}{4}$, $\frac{\pi}{4}$]
 - yaw: infinite rotation
 
 The gimbal joints uses position control with a kinematic chain ZXY.
