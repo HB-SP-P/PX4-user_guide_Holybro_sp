@@ -72,21 +72,21 @@ The Ark Flow will not boot if there is no SD card in the flight controller when 
 
 ### Enable DroneCAN
 
-In order to use the ARK Flow board, connect it to the Pixhawk CAN bus and enable the UAVCAN driver by setting parameter [UAVCAN_ENABLE](../advanced_config/parameter_reference.md#UAVCAN_ENABLE) to `2` for dynamic node allocation (or `3` if using [DroneCAN ESCs](../dronecan/escs.md)).
-
 단계는 다음과 같습니다:
 
-- In _QGroundControl_ set the parameter [UAVCAN_ENABLE](../advanced_config/parameter_reference.md#UAVCAN_ENABLE) to `2` or `3` and reboot (see [Finding/Updating Parameters](../advanced_config/parameters.md)).
+- In _QGroundControl_ set the parameter [UAVCAN_ENABLE](../advanced_config/parameter_reference.md#UAVCAN_ENABLE) to `2` for dynamic node allocation (or `3` if using [DroneCAN ESCs](../dronecan/escs.md)) and reboot (see [Finding/Updating Parameters](../advanced_config/parameters.md)).
 - Connect ARK Flow CAN to the Pixhawk CAN.
 
 Once enabled, the module will be detected on boot.
-Flow data should arrive at 10Hz.
+Flow data should arrive at 100Hz.
+Distance sensor data should arrive at 40Hz
 
 DroneCAN configuration in PX4 is explained in more detail in [DroneCAN > Enabling DroneCAN](../dronecan/index.md#enabling-dronecan).
 
 ### PX4 설정
 
-You need to set the EKF optical flow parameters to enable fusing optical flow measurements for velocity calculation, set necessary [DroneCAN](index.md) parameters, and define offsets if the sensor is not centred within the vehicle.
+First set the parameters to [Enable DroneCAN](#enable-dronecan) (as shown above).
+Then set the EKF optical flow parameters to enable fusing optical flow measurements for velocity calculation, and define offsets if the sensor is not centred within the vehicle.
 
 Set the following parameters in _QGroundControl_:
 
@@ -102,6 +102,8 @@ Set the following parameters in _QGroundControl_:
 - Set [SENS_FLOW_MAXHGT](../advanced_config/parameter_reference.md#SENS_FLOW_MAXHGT) to `25`.
 - Set [SENS_FLOW_MAXR](../advanced_config/parameter_reference.md#SENS_FLOW_MAXR) to `7.4` to match the PAW3902 maximum angular flow rate.
 - The parameters [EKF2_OF_POS_X](../advanced_config/parameter_reference.md#EKF2_OF_POS_X), [EKF2_OF_POS_Y](../advanced_config/parameter_reference.md#EKF2_OF_POS_Y) and [EKF2_OF_POS_Z](../advanced_config/parameter_reference.md#EKF2_OF_POS_Z) can be set to account for the offset of the Ark Flow from the vehicle centre of gravity.
+
+When optical flow is the only source of horizontal position/velocity, then lowering the gain for controller response to horizontal position error [MPC_XY_P](../advanced_config/parameter_reference.md#MPC_XY_P) (e.g. to 0.5) is recommended to reduce oscillations.
 
 ## Ark Flow Configuration
 

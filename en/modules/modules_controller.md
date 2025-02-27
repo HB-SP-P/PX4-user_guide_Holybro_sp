@@ -257,7 +257,7 @@ Source: [modules/rover_differential](https://github.com/PX4/PX4-Autopilot/tree/m
 
 
 ### Description
-Rover Differential controller.
+Rover differential module.
 
 <a id="rover_differential_usage"></a>
 ### Usage
@@ -275,7 +275,7 @@ Source: [modules/rover_mecanum](https://github.com/PX4/PX4-Autopilot/tree/main/s
 
 
 ### Description
-Rover Mecanum controller.
+Rover mecanum module.
 
 <a id="rover_mecanum_usage"></a>
 ### Usage

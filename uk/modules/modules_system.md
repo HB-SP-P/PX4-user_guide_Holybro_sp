@@ -178,7 +178,7 @@ Source: [modules/dataman](https://github.com/PX4/PX4-Autopilot/tree/main/src/mod
 ### Опис
 
 Модуль для забезпечення постійного сховища для решти системи у вигляді простої бази даних через C API.
-Підтримується декілька бекендів:
+Multiple backends are supported depending on the board:
 
 - файл (наприклад, на SD-карті)
 - Оперативна пам'ять (очевидно, що вона не є постійною)
@@ -342,6 +342,73 @@ i2c_launcher <command> [arguments...]
  Commands:
    start
      -b <val>    Bus number
+
+   stop
+
+   status        print status info
+```
+
+## internal_combustion_engine_control
+
+Source: [modules/internal_combustion_engine_control](https://github.com/PX4/PX4-Autopilot/tree/main/src/modules/internal_combustion_engine_control)
+
+### Опис
+
+The module controls internal combustion engine (ICE) features including:
+ignition (on/off), throttle and choke level, starter engine delay, and user request.
+
+### Enabling
+
+This feature is not enabled by default needs to be configured in the
+build target for your board together with the rpm capture driver:
+
+```
+CONFIG_MODULES_INTERNAL_COMBUSTION_ENGINE_CONTROL=y
+CONFIG_DRIVERS_RPM_CAPTURE=y
+```
+
+Additionally, to enable the module:
+
+- Set [ICE_EN](../advanced_config/parameter_reference.md#ICE_EN)
+  to true and adjust the other `ICE_` module parameters according to your needs.
+- Set [RPM_CAP_ENABLE](../advanced_config/parameter_reference.md#RPM_CAP_ENABLE) to true.
+
+The module outputs control signals for ignition, throttle, and choke,
+and takes inputs from an RPM sensor.
+These must be mapped to AUX outputs/inputs in the [Actuator configuration](../config/actuators.md),
+similar to the setup shown below.
+
+![Actuator setup for ICE](../../assets/hardware/ice/ice_actuator_setup.png)
+
+### Імплементація
+
+The ICE is implemented with a (4) state machine:
+
+![Architecture](../../assets/hardware/ice/ice_control_state_machine.png)
+
+The state machine:
+
+- Checks if [Rpm.msg](../msg_docs/Rpm.md) is updated to know if the engine is running
+- Allows for user inputs from:
+  - AUX{N}
+  - Arming state in [VehicleStatus.msg](../msg_docs/VehicleStatus.md)
+
+The module publishes [InternalCombustionEngineControl.msg](../msg_docs/InternalCombustionEngineControl.md).
+
+The architecture is as shown below:
+
+![Architecture](../../assets/hardware/ice/ice_control_diagram.png)
+
+<a id="internal_combustion_engine_control_usage"></a>
+
+<a id="internal_combustion_engine_control_usage"></a>
+
+### Використання
+
+```
+internal_combustion_engine_control <command> [arguments...]
+ Commands:
+   start
 
    stop
 

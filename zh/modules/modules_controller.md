@@ -293,7 +293,7 @@ Source: [modules/rover_differential](https://github.com/PX4/PX4-Autopilot/tree/m
 
 ### 描述
 
-Rover Differential controller.
+Rover differential module.
 
 <a id="rover_differential_usage"></a>
 
@@ -315,7 +315,7 @@ Source: [modules/rover_mecanum](https://github.com/PX4/PX4-Autopilot/tree/main/s
 
 ### 描述
 
-Rover Mecanum controller.
+Rover mecanum module.
 
 <a id="rover_mecanum_usage"></a>
 
@@ -365,6 +365,31 @@ rover_pos_control stop
 
 ```
 rover_pos_control <command> [arguments...]
+ Commands:
+   start
+
+   stop
+
+   status        print status info
+```
+
+## spacecraft
+
+Source: [modules/spacecraft](https://github.com/PX4/PX4-Autopilot/tree/main/src/modules/spacecraft)
+
+```
+### Description
+This implements control allocation for spacecraft vehicles.
+It takes torque and thrust setpoints as inputs and outputs
+actuator setpoint messages.
+```
+
+<a id="spacecraft_usage"></a>
+
+### 用法
+
+```
+spacecraft <command> [arguments...]
  Commands:
    start
 

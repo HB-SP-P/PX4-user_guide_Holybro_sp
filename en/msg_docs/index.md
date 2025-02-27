@@ -75,7 +75,6 @@ The coordinate system origin is the vehicle position at the time when the EKF2-m
 - [AirspeedValidated](AirspeedValidated.md)
 - [AirspeedWind](AirspeedWind.md)
 - [AutotuneAttitudeControlStatus](AutotuneAttitudeControlStatus.md)
-- [Buffer128](Buffer128.md)
 - [ButtonEvent](ButtonEvent.md)
 - [CameraCapture](CameraCapture.md)
 - [CameraStatus](CameraStatus.md)
@@ -144,6 +143,7 @@ scale errors, in-run bias and thermal drift (if thermal compensation is enabled 
 - [HeaterStatus](HeaterStatus.md)
 - [HoverThrustEstimate](HoverThrustEstimate.md)
 - [InputRc](InputRc.md)
+- [InternalCombustionEngineControl](InternalCombustionEngineControl.md)
 - [InternalCombustionEngineStatus](InternalCombustionEngineStatus.md)
 - [IridiumsbdStatus](IridiumsbdStatus.md)
 - [IrlockReport](IrlockReport.md) — IRLOCK_REPORT message data
@@ -204,15 +204,13 @@ This are the three next waypoints (or just the next two or one).
 - [RateCtrlStatus](RateCtrlStatus.md)
 - [RcChannels](RcChannels.md)
 - [RcParameterMap](RcParameterMap.md)
-- [RoverAckermannGuidanceStatus](RoverAckermannGuidanceStatus.md)
-- [RoverAckermannSetpoint](RoverAckermannSetpoint.md)
-- [RoverAckermannStatus](RoverAckermannStatus.md)
-- [RoverDifferentialGuidanceStatus](RoverDifferentialGuidanceStatus.md)
-- [RoverDifferentialSetpoint](RoverDifferentialSetpoint.md)
-- [RoverDifferentialStatus](RoverDifferentialStatus.md)
-- [RoverMecanumGuidanceStatus](RoverMecanumGuidanceStatus.md)
-- [RoverMecanumSetpoint](RoverMecanumSetpoint.md)
-- [RoverMecanumStatus](RoverMecanumStatus.md)
+- [RoverAttitudeSetpoint](RoverAttitudeSetpoint.md)
+- [RoverAttitudeStatus](RoverAttitudeStatus.md)
+- [RoverRateSetpoint](RoverRateSetpoint.md)
+- [RoverRateStatus](RoverRateStatus.md)
+- [RoverSteeringSetpoint](RoverSteeringSetpoint.md)
+- [RoverThrottleSetpoint](RoverThrottleSetpoint.md)
+- [RoverVelocityStatus](RoverVelocityStatus.md)
 - [Rpm](Rpm.md)
 - [RtlStatus](RtlStatus.md)
 - [RtlTimeEstimate](RtlTimeEstimate.md)
@@ -249,10 +247,6 @@ such as Pozyx or NXP Rddrone.
 - [TelemetryStatus](TelemetryStatus.md)
 - [TiltrotorExtraControls](TiltrotorExtraControls.md)
 - [TimesyncStatus](TimesyncStatus.md)
-- [TrajectoryBezier](TrajectoryBezier.md) — Bezier Trajectory description. See also Mavlink TRAJECTORY msg
-The topic trajectory_bezier describe each waypoint defined in vehicle_trajectory_bezier
-- [TrajectoryWaypoint](TrajectoryWaypoint.md) — Waypoint Trajectory description. See also Mavlink TRAJECTORY msg
-The topic trajectory_waypoint describe each waypoint defined in vehicle_trajectory_waypoint
 - [TransponderReport](TransponderReport.md)
 - [TuneControl](TuneControl.md) — This message is used to control the tunes, when the tune_id is set to CUSTOM
 then the frequency, duration are used otherwise those values are ignored.
@@ -278,15 +272,10 @@ NaN means the state was not controlled
 - [VehicleRoi](VehicleRoi.md) — Vehicle Region Of Interest (ROI)
 - [VehicleThrustSetpoint](VehicleThrustSetpoint.md)
 - [VehicleTorqueSetpoint](VehicleTorqueSetpoint.md)
-- [VehicleTrajectoryBezier](VehicleTrajectoryBezier.md) — Vehicle Waypoints Trajectory description. See also MAVLink MAV_TRAJECTORY_REPRESENTATION msg
-The topic vehicle_trajectory_bezier is used to send a smooth flight path from the
-companion computer / avoidance module to the position controller.
-- [VehicleTrajectoryWaypoint](VehicleTrajectoryWaypoint.md) — Vehicle Waypoints Trajectory description. See also MAVLink MAV_TRAJECTORY_REPRESENTATION msg
-The topic vehicle_trajectory_waypoint_desired is used to send the user desired waypoints from the position controller to the companion computer / avoidance module.
-The topic vehicle_trajectory_waypoint is used to send the adjusted waypoints from the companion computer / avoidance module to the position controller.
 - [VelocityLimits](VelocityLimits.md) — Velocity and yaw rate limits for a multicopter position slow mode only
 - [WheelEncoders](WheelEncoders.md)
 - [Wind](Wind.md)
 - [YawEstimatorStatus](YawEstimatorStatus.md)
+- [VehicleStatusV0](VehicleStatusV0.md) — Encodes the system state of the vehicle published by commander
 
     

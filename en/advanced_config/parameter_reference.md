@@ -899,6 +899,10 @@ Select what should be output on PCA9685 Output Channel 1. The default failsafe v
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -960,6 +964,10 @@ Select what should be output on PCA9685 Output Channel 10. The default failsafe 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -1021,6 +1029,10 @@ Select what should be output on PCA9685 Output Channel 11. The default failsafe 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -1082,6 +1094,10 @@ Select what should be output on PCA9685 Output Channel 12. The default failsafe 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -1143,6 +1159,10 @@ Select what should be output on PCA9685 Output Channel 13. The default failsafe 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -1204,6 +1224,10 @@ Select what should be output on PCA9685 Output Channel 14. The default failsafe 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -1265,6 +1289,10 @@ Select what should be output on PCA9685 Output Channel 15. The default failsafe 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -1326,6 +1354,10 @@ Select what should be output on PCA9685 Output Channel 16. The default failsafe 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -1387,6 +1419,10 @@ Select what should be output on PCA9685 Output Channel 2. The default failsafe v
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -1448,6 +1484,10 @@ Select what should be output on PCA9685 Output Channel 3. The default failsafe v
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -1509,6 +1549,10 @@ Select what should be output on PCA9685 Output Channel 4. The default failsafe v
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -1570,6 +1614,10 @@ Select what should be output on PCA9685 Output Channel 5. The default failsafe v
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -1631,6 +1679,10 @@ Select what should be output on PCA9685 Output Channel 6. The default failsafe v
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -1692,6 +1744,10 @@ Select what should be output on PCA9685 Output Channel 7. The default failsafe v
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -1753,6 +1809,10 @@ Select what should be output on PCA9685 Output Channel 8. The default failsafe v
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -1814,6 +1874,10 @@ Select what should be output on PCA9685 Output Channel 9. The default failsafe v
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -2465,6 +2529,10 @@ Select what should be output on PWM Aux 1. The default failsafe value is set acc
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 - `2000`: Camera Trigger
 - `2032`: Camera Capture
 - `2064`: PPS Input
@@ -2530,6 +2598,10 @@ Select what should be output on PWM Capture 2. The default failsafe value is set
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 - `2000`: Camera Trigger
 - `2032`: Camera Capture
 - `2064`: PPS Input
@@ -2595,6 +2667,10 @@ Select what should be output on PWM Capture 3. The default failsafe value is set
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 - `2000`: Camera Trigger
 - `2032`: Camera Capture
 - `2064`: PPS Input
@@ -2660,6 +2736,10 @@ Select what should be output on PWM Aux 2. The default failsafe value is set acc
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 - `2000`: Camera Trigger
 - `2032`: Camera Capture
 - `2064`: PPS Input
@@ -2725,6 +2805,10 @@ Select what should be output on PWM Aux 3. The default failsafe value is set acc
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 - `2000`: Camera Trigger
 - `2032`: Camera Capture
 - `2064`: PPS Input
@@ -2790,6 +2874,10 @@ Select what should be output on PWM Aux 4. The default failsafe value is set acc
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 - `2000`: Camera Trigger
 - `2032`: Camera Capture
 - `2064`: PPS Input
@@ -2855,6 +2943,10 @@ Select what should be output on PWM Aux 5. The default failsafe value is set acc
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 - `2000`: Camera Trigger
 - `2032`: Camera Capture
 - `2064`: PPS Input
@@ -2920,6 +3012,10 @@ Select what should be output on PWM Aux 6. The default failsafe value is set acc
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 - `2000`: Camera Trigger
 - `2032`: Camera Capture
 - `2064`: PPS Input
@@ -2985,6 +3081,10 @@ Select what should be output on PWM Aux 7. The default failsafe value is set acc
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 - `2000`: Camera Trigger
 - `2032`: Camera Capture
 - `2064`: PPS Input
@@ -3050,6 +3150,10 @@ Select what should be output on PWM Aux 8. The default failsafe value is set acc
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 - `2000`: Camera Trigger
 - `2032`: Camera Capture
 - `2064`: PPS Input
@@ -3115,6 +3219,10 @@ Select what should be output on PWM Capture 1. The default failsafe value is set
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 - `2000`: Camera Trigger
 - `2032`: Camera Capture
 - `2064`: PPS Input
@@ -3664,6 +3772,10 @@ Select what should be output on MAIN 1. The default failsafe value is set accord
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -3725,6 +3837,10 @@ Select what should be output on MAIN 2. The default failsafe value is set accord
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -3786,6 +3902,10 @@ Select what should be output on MAIN 3. The default failsafe value is set accord
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -3847,6 +3967,10 @@ Select what should be output on MAIN 4. The default failsafe value is set accord
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -3908,6 +4032,10 @@ Select what should be output on MAIN 5. The default failsafe value is set accord
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -3969,6 +4097,10 @@ Select what should be output on MAIN 6. The default failsafe value is set accord
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -4030,6 +4162,10 @@ Select what should be output on MAIN 7. The default failsafe value is set accord
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -4091,6 +4227,10 @@ Select what should be output on MAIN 8. The default failsafe value is set accord
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -4431,6 +4571,10 @@ Select what should be output on Roboclaw Driver Channel 1. The default failsafe 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -4492,6 +4636,10 @@ Select what should be output on Roboclaw Driver Channel 2. The default failsafe 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -4769,6 +4917,10 @@ Select what should be output on SIM_GZ ESC 1. The default failsafe value is set 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -4830,6 +4982,10 @@ Select what should be output on SIM_GZ ESC 2. The default failsafe value is set 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -4891,6 +5047,10 @@ Select what should be output on SIM_GZ ESC 3. The default failsafe value is set 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -4952,6 +5112,10 @@ Select what should be output on SIM_GZ ESC 4. The default failsafe value is set 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -5013,6 +5177,10 @@ Select what should be output on SIM_GZ ESC 5. The default failsafe value is set 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -5074,6 +5242,10 @@ Select what should be output on SIM_GZ ESC 6. The default failsafe value is set 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -5135,6 +5307,10 @@ Select what should be output on SIM_GZ ESC 7. The default failsafe value is set 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -5196,6 +5372,10 @@ Select what should be output on SIM_GZ ESC 8. The default failsafe value is set 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -5599,6 +5779,10 @@ Select what should be output on SIM_GZ Servo 1. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -5660,6 +5844,10 @@ Select what should be output on SIM_GZ Servo 2. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -5721,6 +5909,10 @@ Select what should be output on SIM_GZ Servo 3. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -5782,6 +5974,10 @@ Select what should be output on SIM_GZ Servo 4. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -5843,6 +6039,10 @@ Select what should be output on SIM_GZ Servo 5. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -5904,6 +6104,10 @@ Select what should be output on SIM_GZ Servo 6. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -5965,6 +6169,10 @@ Select what should be output on SIM_GZ Servo 7. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -6026,6 +6234,10 @@ Select what should be output on SIM_GZ Servo 8. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -6349,6 +6561,10 @@ Select what should be output on SIM_GZ Wheels 1. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -6410,6 +6626,10 @@ Select what should be output on SIM_GZ Wheels 2. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -6471,6 +6691,10 @@ Select what should be output on SIM_GZ Wheels 3. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -6532,6 +6756,10 @@ Select what should be output on SIM_GZ Wheels 4. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -6691,6 +6919,10 @@ Select what should be output on TAP ESC Output ESC 1. The default failsafe value
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -6752,6 +6984,10 @@ Select what should be output on TAP ESC Output ESC 2. The default failsafe value
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -6813,6 +7049,10 @@ Select what should be output on TAP ESC Output ESC 3. The default failsafe value
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -6874,6 +7114,10 @@ Select what should be output on TAP ESC Output ESC 4. The default failsafe value
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -6935,6 +7179,10 @@ Select what should be output on TAP ESC Output ESC 5. The default failsafe value
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -6996,6 +7244,10 @@ Select what should be output on TAP ESC Output ESC 6. The default failsafe value
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -7057,6 +7309,10 @@ Select what should be output on TAP ESC Output ESC 7. The default failsafe value
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -7118,6 +7374,10 @@ Select what should be output on TAP ESC Output ESC 8. The default failsafe value
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -7281,6 +7541,10 @@ Select what should be output on UAVCAN ESC 1. The default failsafe value is set 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -7342,6 +7606,10 @@ Select what should be output on UAVCAN ESC 2. The default failsafe value is set 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -7403,6 +7671,10 @@ Select what should be output on UAVCAN ESC 3. The default failsafe value is set 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -7464,6 +7736,10 @@ Select what should be output on UAVCAN ESC 4. The default failsafe value is set 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -7525,6 +7801,10 @@ Select what should be output on UAVCAN ESC 5. The default failsafe value is set 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -7586,6 +7866,10 @@ Select what should be output on UAVCAN ESC 6. The default failsafe value is set 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -7647,6 +7931,10 @@ Select what should be output on UAVCAN ESC 7. The default failsafe value is set 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -7708,6 +7996,10 @@ Select what should be output on UAVCAN ESC 8. The default failsafe value is set 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -8111,6 +8403,10 @@ Select what should be output on UAVCAN Servo 1. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -8172,6 +8468,10 @@ Select what should be output on UAVCAN Servo 2. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -8233,6 +8533,10 @@ Select what should be output on UAVCAN Servo 3. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -8294,6 +8598,10 @@ Select what should be output on UAVCAN Servo 4. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -8355,6 +8663,10 @@ Select what should be output on UAVCAN Servo 5. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -8416,6 +8728,10 @@ Select what should be output on UAVCAN Servo 6. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -8477,6 +8793,10 @@ Select what should be output on UAVCAN Servo 7. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -8538,6 +8858,10 @@ Select what should be output on UAVCAN Servo 8. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -8941,6 +9265,10 @@ Select what should be output on UAVCANv1 ESC 1. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -9002,6 +9330,10 @@ Select what should be output on UAVCANv1 ESC 10. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -9063,6 +9395,10 @@ Select what should be output on UAVCANv1 ESC 11. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -9124,6 +9460,10 @@ Select what should be output on UAVCANv1 ESC 12. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -9185,6 +9525,10 @@ Select what should be output on UAVCANv1 ESC 13. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -9246,6 +9590,10 @@ Select what should be output on UAVCANv1 ESC 14. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -9307,6 +9655,10 @@ Select what should be output on UAVCANv1 ESC 15. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -9368,6 +9720,10 @@ Select what should be output on UAVCANv1 ESC 16. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -9429,6 +9785,10 @@ Select what should be output on UAVCANv1 ESC 2. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -9490,6 +9850,10 @@ Select what should be output on UAVCANv1 ESC 3. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -9551,6 +9915,10 @@ Select what should be output on UAVCANv1 ESC 4. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -9612,6 +9980,10 @@ Select what should be output on UAVCANv1 ESC 5. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -9673,6 +10045,10 @@ Select what should be output on UAVCANv1 ESC 6. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -9734,6 +10110,10 @@ Select what should be output on UAVCANv1 ESC 7. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -9795,6 +10175,10 @@ Select what should be output on UAVCANv1 ESC 8. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -9856,6 +10240,10 @@ Select what should be output on UAVCANv1 ESC 9. The default failsafe value is se
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -10267,6 +10655,10 @@ Select what should be output on VOXL2 IO Output PWM Channel 1. The default fails
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -10328,6 +10720,10 @@ Select what should be output on VOXL2 IO Output PWM Channel 2. The default fails
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -10389,6 +10785,10 @@ Select what should be output on VOXL2 IO Output PWM Channel 3. The default fails
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -10450,6 +10850,270 @@ Select what should be output on VOXL2 IO Output PWM Channel 4. The default fails
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
+
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; |  |  |  | 0 |  
+
+### VOXL2_IO_FUNC5 (`INT32`) {#VOXL2_IO_FUNC5}
+
+VOXL2 IO Output PWM Channel 5 Output Function.
+
+Select what should be output on VOXL2 IO Output PWM Channel 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest
+
+**Values:**
+
+- `0`: Disabled
+- `1`: Constant Min
+- `2`: Constant Max
+- `101`: Motor 1
+- `102`: Motor 2
+- `103`: Motor 3
+- `104`: Motor 4
+- `105`: Motor 5
+- `106`: Motor 6
+- `107`: Motor 7
+- `108`: Motor 8
+- `109`: Motor 9
+- `110`: Motor 10
+- `111`: Motor 11
+- `112`: Motor 12
+- `201`: Servo 1
+- `202`: Servo 2
+- `203`: Servo 3
+- `204`: Servo 4
+- `205`: Servo 5
+- `206`: Servo 6
+- `207`: Servo 7
+- `208`: Servo 8
+- `301`: Peripheral via Actuator Set 1
+- `302`: Peripheral via Actuator Set 2
+- `303`: Peripheral via Actuator Set 3
+- `304`: Peripheral via Actuator Set 4
+- `305`: Peripheral via Actuator Set 5
+- `306`: Peripheral via Actuator Set 6
+- `400`: Landing Gear
+- `401`: Parachute
+- `402`: RC Roll
+- `403`: RC Pitch
+- `404`: RC Throttle
+- `405`: RC Yaw
+- `406`: RC Flaps
+- `407`: RC AUX 1
+- `408`: RC AUX 2
+- `409`: RC AUX 3
+- `410`: RC AUX 4
+- `411`: RC AUX 5
+- `412`: RC AUX 6
+- `420`: Gimbal Roll
+- `421`: Gimbal Pitch
+- `422`: Gimbal Yaw
+- `430`: Gripper
+- `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
+
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; |  |  |  | 0 |  
+
+### VOXL2_IO_FUNC6 (`INT32`) {#VOXL2_IO_FUNC6}
+
+VOXL2 IO Output PWM Channel 6 Output Function.
+
+Select what should be output on VOXL2 IO Output PWM Channel 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest
+
+**Values:**
+
+- `0`: Disabled
+- `1`: Constant Min
+- `2`: Constant Max
+- `101`: Motor 1
+- `102`: Motor 2
+- `103`: Motor 3
+- `104`: Motor 4
+- `105`: Motor 5
+- `106`: Motor 6
+- `107`: Motor 7
+- `108`: Motor 8
+- `109`: Motor 9
+- `110`: Motor 10
+- `111`: Motor 11
+- `112`: Motor 12
+- `201`: Servo 1
+- `202`: Servo 2
+- `203`: Servo 3
+- `204`: Servo 4
+- `205`: Servo 5
+- `206`: Servo 6
+- `207`: Servo 7
+- `208`: Servo 8
+- `301`: Peripheral via Actuator Set 1
+- `302`: Peripheral via Actuator Set 2
+- `303`: Peripheral via Actuator Set 3
+- `304`: Peripheral via Actuator Set 4
+- `305`: Peripheral via Actuator Set 5
+- `306`: Peripheral via Actuator Set 6
+- `400`: Landing Gear
+- `401`: Parachute
+- `402`: RC Roll
+- `403`: RC Pitch
+- `404`: RC Throttle
+- `405`: RC Yaw
+- `406`: RC Flaps
+- `407`: RC AUX 1
+- `408`: RC AUX 2
+- `409`: RC AUX 3
+- `410`: RC AUX 4
+- `411`: RC AUX 5
+- `412`: RC AUX 6
+- `420`: Gimbal Roll
+- `421`: Gimbal Pitch
+- `422`: Gimbal Yaw
+- `430`: Gripper
+- `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
+
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; |  |  |  | 0 |  
+
+### VOXL2_IO_FUNC7 (`INT32`) {#VOXL2_IO_FUNC7}
+
+VOXL2 IO Output PWM Channel 7 Output Function.
+
+Select what should be output on VOXL2 IO Output PWM Channel 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest
+
+**Values:**
+
+- `0`: Disabled
+- `1`: Constant Min
+- `2`: Constant Max
+- `101`: Motor 1
+- `102`: Motor 2
+- `103`: Motor 3
+- `104`: Motor 4
+- `105`: Motor 5
+- `106`: Motor 6
+- `107`: Motor 7
+- `108`: Motor 8
+- `109`: Motor 9
+- `110`: Motor 10
+- `111`: Motor 11
+- `112`: Motor 12
+- `201`: Servo 1
+- `202`: Servo 2
+- `203`: Servo 3
+- `204`: Servo 4
+- `205`: Servo 5
+- `206`: Servo 6
+- `207`: Servo 7
+- `208`: Servo 8
+- `301`: Peripheral via Actuator Set 1
+- `302`: Peripheral via Actuator Set 2
+- `303`: Peripheral via Actuator Set 3
+- `304`: Peripheral via Actuator Set 4
+- `305`: Peripheral via Actuator Set 5
+- `306`: Peripheral via Actuator Set 6
+- `400`: Landing Gear
+- `401`: Parachute
+- `402`: RC Roll
+- `403`: RC Pitch
+- `404`: RC Throttle
+- `405`: RC Yaw
+- `406`: RC Flaps
+- `407`: RC AUX 1
+- `408`: RC AUX 2
+- `409`: RC AUX 3
+- `410`: RC AUX 4
+- `411`: RC AUX 5
+- `412`: RC AUX 6
+- `420`: Gimbal Roll
+- `421`: Gimbal Pitch
+- `422`: Gimbal Yaw
+- `430`: Gripper
+- `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
+
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; |  |  |  | 0 |  
+
+### VOXL2_IO_FUNC8 (`INT32`) {#VOXL2_IO_FUNC8}
+
+VOXL2 IO Output PWM Channel 8 Output Function.
+
+Select what should be output on VOXL2 IO Output PWM Channel 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest
+
+**Values:**
+
+- `0`: Disabled
+- `1`: Constant Min
+- `2`: Constant Max
+- `101`: Motor 1
+- `102`: Motor 2
+- `103`: Motor 3
+- `104`: Motor 4
+- `105`: Motor 5
+- `106`: Motor 6
+- `107`: Motor 7
+- `108`: Motor 8
+- `109`: Motor 9
+- `110`: Motor 10
+- `111`: Motor 11
+- `112`: Motor 12
+- `201`: Servo 1
+- `202`: Servo 2
+- `203`: Servo 3
+- `204`: Servo 4
+- `205`: Servo 5
+- `206`: Servo 6
+- `207`: Servo 7
+- `208`: Servo 8
+- `301`: Peripheral via Actuator Set 1
+- `302`: Peripheral via Actuator Set 2
+- `303`: Peripheral via Actuator Set 3
+- `304`: Peripheral via Actuator Set 4
+- `305`: Peripheral via Actuator Set 5
+- `306`: Peripheral via Actuator Set 6
+- `400`: Landing Gear
+- `401`: Parachute
+- `402`: RC Roll
+- `403`: RC Pitch
+- `404`: RC Throttle
+- `405`: RC Yaw
+- `406`: RC Flaps
+- `407`: RC AUX 1
+- `408`: RC AUX 2
+- `409`: RC AUX 3
+- `410`: RC AUX 4
+- `411`: RC AUX 5
+- `412`: RC AUX 6
+- `420`: Gimbal Roll
+- `421`: Gimbal Pitch
+- `422`: Gimbal Yaw
+- `430`: Gripper
+- `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -10468,11 +11132,15 @@ Allows to reverse the output range for each channel. Note: this is only useful f
 - `1`: VOXL2 IO Output PWM Channel 2
 - `2`: VOXL2 IO Output PWM Channel 3
 - `3`: VOXL2 IO Output PWM Channel 4
+- `4`: VOXL2 IO Output PWM Channel 5
+- `5`: VOXL2 IO Output PWM Channel 6
+- `6`: VOXL2 IO Output PWM Channel 7
+- `7`: VOXL2 IO Output PWM Channel 8
 
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 15 |  | 0 |  
+&nbsp; | 0 | 255 |  | 0 |  
 
 ### VOXL_ESC_FUNC1 (`INT32`) {#VOXL_ESC_FUNC1}
 
@@ -10529,6 +11197,10 @@ Select what should be output on VOXL ESC Output ESC 1. The default failsafe valu
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -10590,6 +11262,10 @@ Select what should be output on VOXL ESC Output ESC 2. The default failsafe valu
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -10651,6 +11327,10 @@ Select what should be output on VOXL ESC Output ESC 3. The default failsafe valu
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -10712,6 +11392,10 @@ Select what should be output on VOXL ESC Output ESC 4. The default failsafe valu
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -11111,6 +11795,10 @@ Select what should be output on Vertiq IO CVI 0. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -11172,6 +11860,10 @@ Select what should be output on Vertiq IO CVI 1. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -11233,6 +11925,10 @@ Select what should be output on Vertiq IO CVI 10. The default failsafe value is 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -11294,6 +11990,10 @@ Select what should be output on Vertiq IO CVI 11. The default failsafe value is 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -11355,6 +12055,10 @@ Select what should be output on Vertiq IO CVI 12. The default failsafe value is 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -11416,6 +12120,10 @@ Select what should be output on Vertiq IO CVI 13. The default failsafe value is 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -11477,6 +12185,10 @@ Select what should be output on Vertiq IO CVI 14. The default failsafe value is 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -11538,6 +12250,10 @@ Select what should be output on Vertiq IO CVI 15. The default failsafe value is 
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -11599,6 +12315,10 @@ Select what should be output on Vertiq IO CVI 2. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -11660,6 +12380,10 @@ Select what should be output on Vertiq IO CVI 3. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -11721,6 +12445,10 @@ Select what should be output on Vertiq IO CVI 4. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -11782,6 +12510,10 @@ Select what should be output on Vertiq IO CVI 5. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -11843,6 +12575,10 @@ Select what should be output on Vertiq IO CVI 6. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -11904,6 +12640,10 @@ Select what should be output on Vertiq IO CVI 7. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -11965,6 +12705,10 @@ Select what should be output on Vertiq IO CVI 8. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -12026,6 +12770,10 @@ Select what should be output on Vertiq IO CVI 9. The default failsafe value is s
 - `422`: Gimbal Yaw
 - `430`: Gripper
 - `440`: Landing Gear Wheel
+- `450`: IC Engine Ignition
+- `451`: IC Engine Throttle
+- `452`: IC Engine Choke
+- `453`: IC Engine Starter
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -14363,14 +15111,6 @@ The offboard loss failsafe will only be entered after a timeout, set by COM_OF_L
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &nbsp; |  |  |  | 0 |  
-
-### COM_OBS_AVOID (`INT32`) {#COM_OBS_AVOID}
-
-Flag to enable obstacle avoidance.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; |  |  |  | Disabled (0) |  
 
 ### COM_OF_LOSS_T (`FLOAT`) {#COM_OF_LOSS_T}
 
@@ -18484,6 +19224,16 @@ Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &nbsp; | -2 | 2 | 0.1 | 0.0 |  
 
+### CA_MAX_SVO_THROW (`FLOAT`) {#CA_MAX_SVO_THROW}
+
+Throw angle of swashplate servo at maximum commands for linearization.
+
+Used to linearize mechanical output of swashplate servos to avoid axis coupling and binding with 4 servo redundancy. This requires a symmetric setup where the servo horn is exactly centered with a 0 command. Setting to zero disables feature.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 75 | 0.1 | 0.0 | deg 
+
 ### CA_METHOD (`INT32`) {#CA_METHOD}
 
 Control allocation method.
@@ -21086,6 +21836,115 @@ Above this speed, the measurement noise is linearly increased to reduce the sens
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &nbsp; | 1.0 | 10.0 |  | 2.0 | m/s 
+
+## ICE
+
+### ICE_CHOKE_ST_DUR (`FLOAT`) {#ICE_CHOKE_ST_DUR}
+
+Duration of choking during startup.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 10 | 0.1 | 5 | s 
+
+### ICE_EN (`INT32`) {#ICE_EN}
+
+Enable internal combustion engine.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; |  |  |  | Enabled (1) |  
+
+### ICE_IGN_DELAY (`FLOAT`) {#ICE_IGN_DELAY}
+
+Cold-start delay after ignition before engaging starter.
+
+In case that the ignition takes a moment to be up and running, this parameter can be set to account for that.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 10 | 0.1 | 0 | s 
+
+### ICE_MIN_RUN_RPM (`FLOAT`) {#ICE_MIN_RUN_RPM}
+
+Minimum RPM for engine to be declared running.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 10000 | 1 | 2000 | rpm 
+
+### ICE_ON_SOURCE (`INT32`) {#ICE_ON_SOURCE}
+
+Engine start/stop input source.
+
+**Values:**
+
+- `0`: On arming - disarming
+- `1`: Aux1
+- `2`: Aux2
+
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; |  |  |  | 0 |  
+
+### ICE_RUN_FAULT_D (`INT32`) {#ICE_RUN_FAULT_D}
+
+Fault detection if it stops in running state.
+
+Enables restart if a fault is detected during the running state. Otherwise commands continues in running state until given an user request off.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; |  |  |  | Enabled (1) |  
+
+### ICE_STOP_CHOKE (`INT32`) {#ICE_STOP_CHOKE}
+
+Apply choke when stopping engine.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; |  |  |  | Enabled (1) |  
+
+### ICE_STRT_ATTEMPT (`INT32`) {#ICE_STRT_ATTEMPT}
+
+Number attempts for starting the engine.
+
+Number of accepted attempts for starting the engine before declaring a fault.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 10 |  | 3 |  
+
+### ICE_STRT_DUR (`FLOAT`) {#ICE_STRT_DUR}
+
+Duration of single starting attempt (excl. choking).
+
+Maximum expected time for startup before declaring timeout.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 10 | 0.1 | 5 | s 
+
+### ICE_STRT_THR (`FLOAT`) {#ICE_STRT_THR}
+
+Throttle value for starting engine.
+
+During the choking and the starting phase, the throttle value is set to this value.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 1 | 0.01 | 0.1 | norm 
+
+### ICE_THR_SLEW (`FLOAT`) {#ICE_THR_SLEW}
+
+Throttle slew rate.
+
+Maximum rate of change of throttle value per second.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 1 | 0.01 | 0.5 | 1/s 
 
 ## Iridium SBD
 
@@ -23836,6 +24695,25 @@ Manual input mapped to scale horizontal velocity in position slow mode.
 **Values:**
 
 - `0`: No rescaling
+- `1`: AUX1
+- `2`: AUX2
+- `3`: AUX3
+- `4`: AUX4
+- `5`: AUX5
+- `6`: AUX6
+
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; |  |  |  | 0 |  
+
+### MC_SLOW_MAP_PTCH (`INT32`) {#MC_SLOW_MAP_PTCH}
+
+RC_MAP_AUX{N} to allow for gimbal pitch rate control in position slow mode.
+
+**Values:**
+
+- `0`: No pitch rate input
 - `1`: AUX1
 - `2`: AUX2
 - `3`: AUX3
@@ -26708,7 +27586,7 @@ The geometric ideal acceptance radius is multiplied by this factor to account fo
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 1 | 100 | 0.01 | 2 |  
+&nbsp; | 1 | 100 | 0.01 | 1 |  
 
 ### RA_ACC_RAD_MAX (`FLOAT`) {#RA_ACC_RAD_MAX}
 
@@ -26718,235 +27596,139 @@ The controller scales the acceptance radius based on the angle between the previ
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | -1 | 100 | 0.01 | 3 | m 
-
-### RA_LAT_ACCEL_I (`FLOAT`) {#RA_LAT_ACCEL_I}
-
-Integral gain for lateral acceleration controller.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.001 | 0 |  
-
-### RA_LAT_ACCEL_P (`FLOAT`) {#RA_LAT_ACCEL_P}
-
-Proportional gain for lateral acceleration controller.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 0 |  
-
-### RA_MAX_ACCEL (`FLOAT`) {#RA_MAX_ACCEL}
-
-Maximum acceleration for the rover.
-
-This is used for the acceleration slew rate.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | -1 | 100 | 0.01 | -1 | m/s^2 
-
-### RA_MAX_DECEL (`FLOAT`) {#RA_MAX_DECEL}
-
-Maximum deceleration for the rover.
-
-This is used for the deceleration slew rate, the feed-forward term for the speed controller during missions and the corner slow down effect. Note: For the corner slow down effect RA_MAX_JERK also has to be set.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | -1 | 100 | 0.01 | -1 | m/s^2 
-
-### RA_MAX_JERK (`FLOAT`) {#RA_MAX_JERK}
-
-Maximum jerk.
-
-Limit for forwards acc/deceleration change. This is used for the corner slow down effect. Note: RA_MAX_DECEL also has to be set for this to be enabled.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | -1 | 100 | 0.01 | -1 | m/s^3 
-
-### RA_MAX_LAT_ACCEL (`FLOAT`) {#RA_MAX_LAT_ACCEL}
-
-Maximum allowed lateral acceleration.
-
-This parameter is used to cap the lateral acceleration and map controller inputs to desired lateral acceleration in Acro, Stabilized and Position mode.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0.01 | 1000 | 0.01 | 0.01 | m/s^2 
-
-### RA_MAX_SPEED (`FLOAT`) {#RA_MAX_SPEED}
-
-Maximum allowed speed.
-
-This is the maximum allowed speed setpoint when driving in a mode that uses closed loop speed control.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | -1 | 100 | 0.01 | -1 | m/s 
+&nbsp; | -1 | 100 | 0.01 | -1 | m 
 
 ### RA_MAX_STR_ANG (`FLOAT`) {#RA_MAX_STR_ANG}
 
 Maximum steering angle.
 
-The maximum angle that the rover can steer
-
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0.1 | 1.5708 | 0.01 | 0.5236 | rad 
+&nbsp; | 0 | 1.5708 | 0.01 | 0 | rad 
 
-### RA_MAX_STR_RATE (`FLOAT`) {#RA_MAX_STR_RATE}
+### RA_STR_RATE_LIM (`FLOAT`) {#RA_STR_RATE_LIM}
 
-Maximum steering rate for the rover.
+Steering rate limit.
+
+Set to -1 to disable.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &nbsp; | -1 | 1000 | 0.01 | -1 | deg/s 
 
-### RA_MAX_THR_SPEED (`FLOAT`) {#RA_MAX_THR_SPEED}
-
-Speed the rover drives at maximum throttle.
-
-This parameter is used to calculate the feedforward term of the closed loop speed control which linearly maps desired speeds to normalized motor commands [-1. 1]. A good starting point is the observed ground speed when the rover drives at maximum throttle in manual mode. Increase this parameter if the rover is faster than the setpoint, and decrease if the rover is slower.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | -1 | 100 | 0.01 | -1 | m/s 
-
-### RA_SPEED_I (`FLOAT`) {#RA_SPEED_I}
-
-Integral gain for ground speed controller.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.001 | 1 |  
-
-### RA_SPEED_P (`FLOAT`) {#RA_SPEED_P}
-
-Proportional gain for ground speed controller.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 1 |  
-
 ### RA_WHEEL_BASE (`FLOAT`) {#RA_WHEEL_BASE}
 
 Wheel base.
 
-Distance from the front to the rear axle
+Distance from the front to the rear axle.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0.001 | 100 | 0.001 | 0.5 | m 
+&nbsp; | 0 | 100 | 0.001 | 0 | m 
 
-## Rover Differential
+## Rover Attitude Control
 
-### RD_MAX_ACCEL (`FLOAT`) {#RD_MAX_ACCEL}
+### RO_YAW_P (`FLOAT`) {#RO_YAW_P}
 
-Maximum acceleration.
-
-Maximum acceleration is used to limit the acceleration of the rover
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 0.5 | m/s^2 
-
-### RD_MAX_DECEL (`FLOAT`) {#RD_MAX_DECEL}
-
-Maximum deceleration.
-
-Maximum decelaration is used to limit the deceleration of the rover. Set to -1 to disable, causing the rover to decelerate as fast as possible. Caution: This disables the slow down effect in auto modes.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | -1 | 100 | 0.01 | -1 | m/s^2 
-
-### RD_MAX_JERK (`FLOAT`) {#RD_MAX_JERK}
-
-Maximum jerk.
-
-Limit for forwards acc/deceleration change.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 0.5 | m/s^3 
-
-### RD_MAX_SPEED (`FLOAT`) {#RD_MAX_SPEED}
-
-Maximum speed setpoint.
-
-This parameter is used to cap desired forward speed and map controller inputs to desired speeds in Position mode.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 1 | m/s 
-
-### RD_MAX_THR_SPD (`FLOAT`) {#RD_MAX_THR_SPD}
-
-Speed the rover drives at maximum throttle.
-
-This parameter is used to calculate the feedforward term of the closed loop speed control which linearly maps desired speeds to normalized motor commands [-1. 1]. A good starting point is the observed ground speed when the rover drives at maximum throttle in manual mode. Increase this parameter if the rover is faster than the setpoint, and decrease if the rover is slower.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 1 | m/s 
-
-### RD_MAX_THR_YAW_R (`FLOAT`) {#RD_MAX_THR_YAW_R}
-
-Yaw rate turning left/right wheels at max speed in opposite directions.
-
-This parameter is used to calculate the feedforward term of the closed loop yaw rate control. The controller first calculates the required speed difference between the left and right motor to achieve the desired yaw rate. This desired speed difference is then linearly mapped to normalized motor commands. A good starting point is twice the speed the rover drives at maximum throttle (RD_MAX_THR_SPD)). Increase this parameter if the rover turns faster than the setpoint, and decrease if the rover turns slower.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 2 | m/s 
-
-### RD_MAX_YAW_ACCEL (`FLOAT`) {#RD_MAX_YAW_ACCEL}
-
-Maximum allowed yaw acceleration for the rover.
-
-This parameter is used to cap desired yaw acceleration. This is used to adjust incoming yaw rate setpoints to a feasible yaw rate setpoint based on the physical limitation on how fast the yaw rate can change. This leads to a smooth setpoint trajectory for the closed loop yaw rate controller to track. Set to -1 to disable.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | -1 | 1000 | 0.01 | -1 | deg/s^2 
-
-### RD_MAX_YAW_RATE (`FLOAT`) {#RD_MAX_YAW_RATE}
-
-Maximum allowed yaw rate for the rover.
-
-This parameter is used to cap desired yaw rates and map controller inputs to desired yaw rates in Acro,Stabilized and Position mode.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0.01 | 1000 | 0.01 | 90 | deg/s 
-
-### RD_MISS_SPD_GAIN (`FLOAT`) {#RD_MISS_SPD_GAIN}
-
-Tuning parameter for the speed reduction during waypoint transition.
-
-The waypoint transition speed is calculated as: Transition_speed = Maximum_speed * (1 - normalized_transition_angle * RM_MISS_VEL_GAIN) The normalized transition angle is the angle between the line segment from prev-curr WP and curr-next WP interpolated from [0, 180] -> [0, 1]. Higher value -> More speed reduction during waypoint transitions.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0.05 | 100 | 0.01 | 1 |  
-
-### RD_SPEED_I (`FLOAT`) {#RD_SPEED_I}
-
-Integral gain for closed loop forward speed controller.
+Proportional gain for closed loop yaw controller.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &nbsp; | 0 | 100 | 0.01 | 0 |  
 
-### RD_SPEED_P (`FLOAT`) {#RD_SPEED_P}
+## Rover Control
 
-Proportional gain for closed loop forward speed controller.
+### RO_ACCEL_LIM (`FLOAT`) {#RO_ACCEL_LIM}
+
+Acceleration limit.
+
+Set to -1 to disable. For mecanum rovers this limit is used for longitudinal and lateral acceleration.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 1 |  
+&nbsp; | -1 | 100 | 0.01 | -1 | m/s^2 
+
+### RO_DECEL_LIM (`FLOAT`) {#RO_DECEL_LIM}
+
+Deceleration limit.
+
+Set to -1 to disable. Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes. For mecanum rovers this limit is used for longitudinal and lateral deceleration.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | -1 | 100 | 0.01 | -1 | m/s^2 
+
+### RO_JERK_LIM (`FLOAT`) {#RO_JERK_LIM}
+
+Jerk limit.
+
+Set to -1 to disable. Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes. For mecanum rovers this limit is used for longitudinal and lateral jerk.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | -1 | 100 | 0.01 | -1 | m/s^3 
+
+### RO_MAX_THR_SPEED (`FLOAT`) {#RO_MAX_THR_SPEED}
+
+Speed the rover drives at maximum throttle.
+
+Used to linearly map speeds [m/s] to throttle values [-1. 1].
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 100 | 0.01 | 0 | m/s 
+
+### RO_SPEED_TH (`FLOAT`) {#RO_SPEED_TH}
+
+Speed measurement threshold.
+
+The minimum threshold for the speed measurement not to be interpreted as zero.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 100 | 0.01 | 0.1 | m/s 
+
+### RO_YAW_RATE_TH (`FLOAT`) {#RO_YAW_RATE_TH}
+
+Yaw rate measurement threshold.
+
+The minimum threshold for the yaw rate measurement not to be interpreted as zero.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 100 | 0.01 | 3 | deg/s 
+
+### RO_YAW_STICK_DZ (`FLOAT`) {#RO_YAW_STICK_DZ}
+
+Yaw stick deadzone.
+
+Percentage of stick input range that will be interpreted as zero around the stick centered value.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 1 | 0.01 | 0.1 |  
+
+## Rover Differential
+
+### RD_MAX_THR_YAW_R (`FLOAT`) {#RD_MAX_THR_YAW_R}
+
+Yaw rate turning left/right wheels at max speed in opposite directions.
+
+This parameter is used to calculate the feedforward term of the closed loop yaw rate control. The controller first calculates the required speed difference between the left and right motor to achieve the desired yaw rate. This desired speed difference is then linearly mapped to normalized motor commands. A good starting point is half the speed the rover drives at maximum throttle (RD_MAX_THR_SPD)). Increase this parameter if the rover turns faster than the setpoint, and decrease if the rover turns slower.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 100 | 0.01 | 0 | m/s 
+
+### RD_MISS_SPD_GAIN (`FLOAT`) {#RD_MISS_SPD_GAIN}
+
+Tuning parameter for the speed reduction during waypoint transition.
+
+The waypoint transition speed is calculated as: Transition_speed = Maximum_speed * (1 - normalized_transition_angle * RM_MISS_VEL_GAIN) The normalized transition angle is the angle between the line segment from prev-curr WP and curr-next WP interpolated from [0, 180] -> [0, 1]. Higher value -> More speed reduction during waypoint transitions. Set to -1 to disable any speed reduction during waypoint transition.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | -1 | 100 | 0.01 | -1 |  
 
 ### RD_TRANS_DRV_TRN (`FLOAT`) {#RD_TRANS_DRV_TRN}
 
@@ -26962,6 +27744,8 @@ Reboot | minValue | maxValue | increment | default | unit
 
 Yaw error threshhold to switch from spot turning to driving.
 
+This threshold is used for the state machine to switch from turning to driving based on the error between the desired and actual yaw.
+
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &nbsp; | 0.001 | 3.14159 | 0.01 | 0.0872665 | rad 
@@ -26970,195 +27754,55 @@ Reboot | minValue | maxValue | increment | default | unit
 
 Wheel track.
 
-Distance from the center of the right wheel to the center of the left wheel
+Distance from the center of the right wheel to the center of the left wheel.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0.001 | 100 | 0.001 | 0.5 | m 
-
-### RD_YAW_I (`FLOAT`) {#RD_YAW_I}
-
-Integral gain for closed loop yaw controller.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 0 |  
-
-### RD_YAW_P (`FLOAT`) {#RD_YAW_P}
-
-Proportional gain for closed loop yaw controller.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 1 |  
-
-### RD_YAW_RATE_I (`FLOAT`) {#RD_YAW_RATE_I}
-
-Integral gain for closed loop yaw rate controller.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 0 |  
-
-### RD_YAW_RATE_P (`FLOAT`) {#RD_YAW_RATE_P}
-
-Proportional gain for closed loop yaw rate controller.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 1 |  
+&nbsp; | 0 | 100 | 0.001 | 0 | m 
 
 ## Rover Mecanum
 
-### RM_MAX_ACCEL (`FLOAT`) {#RM_MAX_ACCEL}
+### RM_COURSE_CTL_TH (`FLOAT`) {#RM_COURSE_CTL_TH}
 
-Maximum acceleration.
+Threshold to update course control in manual position mode.
 
-Maximum acceleration is used to limit the acceleration of the rover
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 0.5 | m/s^2 
-
-### RM_MAX_DECEL (`FLOAT`) {#RM_MAX_DECEL}
-
-Maximum deceleration.
-
-Maximum decelaration is used to limit the deceleration of the rover. Set to -1 to disable, causing the rover to decelerate as fast as possible. Caution: Disabling the deceleration limit also disables the slow down effect in auto modes.
+Threshold for the angle between the active cruise direction and the cruise direction given by the stick inputs. This can be understood as a deadzone for the combined stick inputs for forward/backwards and lateral speed which defines a course direction.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | -1 | 100 | 0.01 | -1 | m/s^2 
-
-### RM_MAX_JERK (`FLOAT`) {#RM_MAX_JERK}
-
-Maximum jerk.
-
-Limit for forwards acc/deceleration change.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 0.5 | m/s^3 
-
-### RM_MAX_SPEED (`FLOAT`) {#RM_MAX_SPEED}
-
-Maximum speed the rover is allowed to drive.
-
-This parameter is used cap the maximum speed the rover is allowed to drive and to map stick inputs to desired speeds in position mode.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 7 | m/s 
-
-### RM_MAX_THR_SPD (`FLOAT`) {#RM_MAX_THR_SPD}
-
-Speed the rover drives at maximum throttle.
-
-This parameter is used to calculate the feedforward term of the closed loop speed control which linearly maps desired speeds to normalized motor commands [-1. 1]. A good starting point is the observed ground speed when the rover drives at maximum throttle in manual mode. Increase this parameter if the rover is faster than the setpoint, and decrease if the rover is slower.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 1 | m/s 
+&nbsp; | 0 | 3.14 | 0.01 | 0.17 | rad 
 
 ### RM_MAX_THR_YAW_R (`FLOAT`) {#RM_MAX_THR_YAW_R}
 
 Yaw rate turning left/right wheels at max speed in opposite directions.
 
-This parameter is used to calculate the feedforward term of the closed loop yaw rate control. The controller first calculates the required speed difference between the left and right motor to achieve the desired yaw rate. This desired speed difference is then linearly mapped to normalized motor commands. A good starting point is twice the speed the rover drives at maximum throttle (RM_MAX_THRTL_SPD)). Increase this parameter if the rover turns faster than the setpoint, and decrease if the rover turns slower.
+This parameter is used to calculate the feedforward term of the closed loop yaw rate control. The controller first calculates the required speed difference between the left and right motor to achieve the desired yaw rate. This desired speed difference is then linearly mapped to normalized motor commands. A good starting point is half the speed the rover drives at maximum throttle (RD_MAX_THR_SPD)). Increase this parameter if the rover turns faster than the setpoint, and decrease if the rover turns slower.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 2 | m/s 
+&nbsp; | 0 | 100 | 0.01 | 0 | m/s 
 
-### RM_MAX_YAW_ACCEL (`FLOAT`) {#RM_MAX_YAW_ACCEL}
+### RM_MISS_SPD_GAIN (`FLOAT`) {#RM_MISS_SPD_GAIN}
 
-Maximum allowed yaw acceleration for the rover.
+Tuning parameter for the speed reduction during waypoint transition.
 
-This parameter is used to cap desired yaw acceleration. This is used to adjust incoming yaw rate setpoints to a feasible yaw rate setpoint based on the physical limitation on how fast the yaw rate can change. This leads to a smooth setpoint trajectory for the closed loop yaw rate controller to track. Set to -1 to disable.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | -1 | 1000 | 0.01 | -1 | deg/s^2 
-
-### RM_MAX_YAW_RATE (`FLOAT`) {#RM_MAX_YAW_RATE}
-
-Maximum allowed yaw rate for the rover.
-
-This parameter is used to cap desired yaw rates and map controller inputs to desired yaw rates in acro mode.
+The waypoint transition speed is calculated as: Transition_speed = Maximum_speed * (1 - normalized_transition_angle * RM_MISS_VEL_GAIN) The normalized transition angle is the angle between the line segment from prev-curr waypoint and curr-next waypoint interpolated from [0, 180] -> [0, 1]. Higher value -> More speed reduction during waypoint transitions. Set to -1 to disable any speed reduction during waypoint transition.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0.01 | 1000 | 0.01 | 90 | deg/s 
-
-### RM_MISS_VEL_GAIN (`FLOAT`) {#RM_MISS_VEL_GAIN}
-
-Tuning parameter for the velocity reduction during waypoint transition.
-
-The waypoint transition speed is calculated as: Transition_speed = Maximum_speed * (1 - normalized_transition_angle * RM_MISS_VEL_GAIN) The normalized transition angle is the angle between the line segment from prev-curr WP and curr-next WP interpolated from [0, 180] -> [0, 1]. Higher value -> More velocity reduction during cornering.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0.05 | 100 | 0.01 | 1 |  
-
-### RM_SPEED_I (`FLOAT`) {#RM_SPEED_I}
-
-Integral gain for ground speed controller.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 0 |  
-
-### RM_SPEED_P (`FLOAT`) {#RM_SPEED_P}
-
-Proportional gain for speed controller.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 1 |  
+&nbsp; | -1 | 100 | 0.01 | -1 |  
 
 ### RM_WHEEL_TRACK (`FLOAT`) {#RM_WHEEL_TRACK}
 
 Wheel track.
 
-Distance from the center of the right wheels to the center of the left wheels.
+Distance from the center of the right wheel to the center of the left wheel.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0.001 | 100 | 0.001 | 0.5 | m 
+&nbsp; | 0 | 100 | 0.001 | 0 | m 
 
-### RM_YAW_I (`FLOAT`) {#RM_YAW_I}
-
-Integral gain for closed loop yaw controller.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 0.1 |  
-
-### RM_YAW_P (`FLOAT`) {#RM_YAW_P}
-
-Proportional gain for closed loop yaw controller.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 1 |  
-
-### RM_YAW_RATE_I (`FLOAT`) {#RM_YAW_RATE_I}
-
-Integral gain for the closed-loop yaw rate controller.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 0 |  
-
-### RM_YAW_RATE_P (`FLOAT`) {#RM_YAW_RATE_P}
-
-Proportional gain for the closed-loop yaw rate controller.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 1 |  
-
-## Rover Position Control
+## Rover Position Control (Deprecated)
 
 ### GND_L1_DAMPING (`FLOAT`) {#GND_L1_DAMPING}
 
@@ -27329,6 +27973,82 @@ A value of 0.31 is typical for 1/10 RC cars.
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &nbsp; | 0.0 |  | 0.01 | 0.31 | m 
+
+## Rover Rate Control
+
+### RO_YAW_ACCEL_LIM (`FLOAT`) {#RO_YAW_ACCEL_LIM}
+
+Yaw acceleration limit.
+
+Used to cap how quickly the magnitude of yaw rate setpoints can increase. Set to -1 to disable.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | -1 | 10000 | 0.01 | -1 | deg/s^2 
+
+### RO_YAW_DECEL_LIM (`FLOAT`) {#RO_YAW_DECEL_LIM}
+
+Yaw deceleration limit.
+
+Used to cap how quickly the magnitude of yaw rate setpoints can decrease. Set to -1 to disable.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | -1 | 10000 | 0.01 | -1 | deg/s^2 
+
+### RO_YAW_RATE_I (`FLOAT`) {#RO_YAW_RATE_I}
+
+Integral gain for closed loop yaw rate controller.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 100 | 0.01 | 0 |  
+
+### RO_YAW_RATE_LIM (`FLOAT`) {#RO_YAW_RATE_LIM}
+
+Yaw rate limit.
+
+Used to cap yaw rate setpoints and map controller inputs to yaw rate setpoints in Acro, Stabilized and Position mode.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 10000 | 0.01 | 0 | deg/s 
+
+### RO_YAW_RATE_P (`FLOAT`) {#RO_YAW_RATE_P}
+
+Proportional gain for closed loop yaw rate controller.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 100 | 0.01 | 0 |  
+
+## Rover Velocity Control
+
+### RO_SPEED_I (`FLOAT`) {#RO_SPEED_I}
+
+Integral gain for ground speed controller.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 100 | 0.001 | 0 |  
+
+### RO_SPEED_LIM (`FLOAT`) {#RO_SPEED_LIM}
+
+Speed limit.
+
+Used to cap speed setpoints and map controller inputs to speed setpoints in Position mode.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | -1 | 100 | 0.01 | -1 | m/s 
+
+### RO_SPEED_P (`FLOAT`) {#RO_SPEED_P}
+
+Proportional gain for ground speed controller.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 100 | 0.01 | 0 |  
 
 ## Runway Takeoff
 
@@ -27519,7 +28239,7 @@ Reboot | minValue | maxValue | increment | default | unit
 
 Logging topic profile (integer bitmask).
 
-This integer bitmask controls the set and rates of logged topics. The default allows for general log analysis while keeping the log file size reasonably small. Enabling multiple sets leads to higher bandwidth requirements and larger log files. Set bits true to enable: 0 : Default set (used for general log analysis) 1 : Full rate estimator (EKF2) replay topics 2 : Topics for thermal calibration (high rate raw IMU and Baro sensor data) 3 : Topics for system identification (high rate actuator control and IMU data) 4 : Full rates for analysis of fast maneuvers (RC, attitude, rates and actuators) 5 : Debugging topics (debug_*.msg topics, for custom code) 6 : Topics for sensor comparison (low rate raw IMU, Baro and magnetometer data) 7 : Topics for computer vision and collision avoidance 8 : Raw FIFO high-rate IMU (Gyro) 9 : Raw FIFO high-rate IMU (Accel) 10: Logging of mavlink tunnel message (useful for payload communication debugging)
+This integer bitmask controls the set and rates of logged topics. The default allows for general log analysis while keeping the log file size reasonably small. Enabling multiple sets leads to higher bandwidth requirements and larger log files. Set bits true to enable: 0 : Default set (used for general log analysis) 1 : Full rate estimator (EKF2) replay topics 2 : Topics for thermal calibration (high rate raw IMU and Baro sensor data) 3 : Topics for system identification (high rate actuator control and IMU data) 4 : Full rates for analysis of fast maneuvers (RC, attitude, rates and actuators) 5 : Debugging topics (debug_*.msg topics, for custom code) 6 : Topics for sensor comparison (low rate raw IMU, Baro and magnetometer data) 7 : Topics for computer vision and collision prevention 8 : Raw FIFO high-rate IMU (Gyro) 9 : Raw FIFO high-rate IMU (Accel) 10: Logging of mavlink tunnel message (useful for payload communication debugging)
 
 **Bitmask:**
 
@@ -32955,9 +33675,9 @@ Reboot | minValue | maxValue | increment | default | unit
 
 ### RPM_CAP_ENABLE (`INT32`) {#RPM_CAP_ENABLE}
 
-RPM Capture Enable.
+RPM capture enable.
 
-Enables the RPM capture module on FMU channel 5.
+Enables the RPM capture module to estimate RPM from pulses detected on a PWM pin configured as "RPM Input".
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
@@ -33160,6 +33880,16 @@ The preflight check will fail if fewer than this number of distance sensors with
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &nbsp; | 0 | 4 |  | 0 |  
+
+### SYS_HAS_NUM_OF (`INT32`) {#SYS_HAS_NUM_OF}
+
+Number of optical flow sensors required to be available.
+
+The preflight check will fail if fewer than this number of optical flow sensors with valid data are present.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 1 |  | 0 |  
 
 ### SYS_HITL (`INT32`) {#SYS_HITL}
 
@@ -36121,6 +36851,16 @@ Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &check; | 0 | 2 |  | 0 |  
 
+### UXRCE_DDS_RX_TO (`INT32`) {#UXRCE_DDS_RX_TO}
+
+RX rate timeout configuration.
+
+Specifies after how many seconds without receiving data the DDS connection is reestablished. A value less than one disables the RX rate timeout.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&check; |  |  |  | -1 | s 
+
 ### UXRCE_DDS_SYNCC (`INT32`) {#UXRCE_DDS_SYNCC}
 
 Enable uXRCE-DDS system clock synchronization.
@@ -36140,6 +36880,16 @@ When enabled, uxrce_dds_client will synchronize the timestamps of the incoming a
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &check; |  |  |  | Enabled (1) |  
+
+### UXRCE_DDS_TX_TO (`INT32`) {#UXRCE_DDS_TX_TO}
+
+TX rate timeout configuration.
+
+Specifies after how many seconds without sending data the DDS connection is reestablished. A value less than one disables the TX rate timeout.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&check; |  |  |  | 3 | s 
 
 ## VOXL ESC
 
@@ -36168,6 +36918,19 @@ Selects what type of UART ESC, if any, is being used.
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &check; | 0 | 1 |  | 0 |  
+
+### VOXL_ESC_GPIO_CH (`INT32`) {#VOXL_ESC_GPIO_CH}
+
+GPIO Control Channel.
+
+**Values:**
+
+- `0`: - Disabled
+
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&check; | 0 | 6 |  | 0 |  
 
 ### VOXL_ESC_MODE (`INT32`) {#VOXL_ESC_MODE}
 
@@ -36367,19 +37130,49 @@ Reboot | minValue | maxValue | increment | default | unit
 
 ### VOXL2_IO_BAUD (`INT32`) {#VOXL2_IO_BAUD}
 
-UART M0065 baud rate.
+VOXL2_IO UART baud rate.
 
-Default rate is 921600, which is used for communicating with M0065.
+Default rate is 921600, which is used for communicating with VOXL2_IO board
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &nbsp; |  |  |  | 921600 | bit/s 
 
+### VOXL2_IO_CMAX (`INT32`) {#VOXL2_IO_CMAX}
+
+VOXL2_IO Calibration Max PWM.
+
+Maximum duration (microseconds) for VOXL2_IO board
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 2000 |  | 2000 | us 
+
+### VOXL2_IO_CMIN (`INT32`) {#VOXL2_IO_CMIN}
+
+VOXL2_IO Calibration Min PWM.
+
+Minimum duration (microseconds) for VOXL2_IO board
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 2000 |  | 1050 | us 
+
+### VOXL2_IO_DIS (`INT32`) {#VOXL2_IO_DIS}
+
+VOXL2_IO Disabled PWM.
+
+Pulse duration in disabled state (microseconds) for VOXL2_IO board
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 2000 |  | 1000 | us 
+
 ### VOXL2_IO_MAX (`INT32`) {#VOXL2_IO_MAX}
 
-M0065 PWM Max.
+VOXL2_IO Max PWM.
 
-Maximum duration (microseconds) for M0065 PWM
+Maximum duration (microseconds) for VOXL2_IO board
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
@@ -36387,13 +37180,13 @@ Reboot | minValue | maxValue | increment | default | unit
 
 ### VOXL2_IO_MIN (`INT32`) {#VOXL2_IO_MIN}
 
-M0065 PWM Min.
+VOXL2_IO Min PWM.
 
-Minimum duration (microseconds) for M0065 PWM
+Minimum duration (microseconds) for VOXL2_IO board
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 2000 |  | 1000 | us 
+&nbsp; | 0 | 2000 |  | 1100 | us 
 
 ## VTOL Attitude Control
 
