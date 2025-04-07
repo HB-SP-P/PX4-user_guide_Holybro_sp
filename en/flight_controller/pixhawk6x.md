@@ -13,7 +13,7 @@ Equipped with a high-performance H7 Processor, modular design, triple redundancy
 
 ### Pixhawk 6X (Rev 8)
 
-<img src="../../assets/flight_controller/pixhawk6x/HB_6X_rev8_V2A.png" width="420px"/><img src="../../assets/flight_controller/pixhawk6x/hb_6x_internal_v2.png" width="300px"/>
+<img src="../../assets/flight_controller/pixhawk6x/HB_6X_rev8_V2A.png" width="420px"/><img src="../../assets/flight_controller/pixhawk6x/hb_6x_internal_v2.png" width="320px"/>
 
 #### Pixhawk 6X (Rev 3/4, discontinued)
 
