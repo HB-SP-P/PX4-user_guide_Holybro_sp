@@ -42,6 +42,9 @@ Please continue reading for [upgrade instructions](#upgrade-guide).
   This is often used to provide a minimum delay for hardware that does not provide completion feedback, so that it can reach the commanded state before the mission progresses.
   ([PX4-Autopilot#23960](https://github.com/PX4/PX4-Autopilot/pull/23960)).
 - **[uORB]** Introduce a [version field](../middleware/uorb.md#message-versioning) for a subset of uORB messages ([PX4-Autopilot#23850](https://github.com/PX4/PX4-Autopilot/pull/23850))
+- [Compass calibration](../config/compass.md) disables internal compasses if an external compass is available.
+  This typically reduces false warnings due to magnetometer inconsistencies.
+  ([PX4-Autopilot#24316](https://github.com/PX4/PX4-Autopilot/pull/24316)).
 
 ### Control
 
@@ -75,6 +78,7 @@ Please continue reading for [upgrade instructions](#upgrade-guide).
   - New vehicle model `x500_gimbal` — [Quadrotor(x500) with gimbal (Front-facing) in Gazebo](../sim_gazebo_gz/vehicles.md#x500-quadrotor-with-gimbal-front-facing) ([PX4-Autopilot#23382](https://github.com/PX4/PX4-Autopilot/pull/23382) and [PX4-gazebo-models#47](https://github.com/PX4/PX4-gazebo-models/pull/47) and [PX4-gazebo-models#70](https://github.com/PX4/PX4-gazebo-models/pull/70)).
   - New vehicle model `quadtailsitter` — [Quad Tailsitter VTOL](../sim_gazebo_gz/vehicles.md#quad-tailsitter-vtol) ([PX4-Autopilot#23943](https://github.com/PX4/PX4-Autopilot/pull/23943) and [PX4-gazebo-models#65](https://github.com/PX4/PX4-gazebo-models/pull/65)).
   - New vehicle model `tiltrotor` — [Tiltrotor VTOL](../sim_gazebo_gz/vehicles.md#tiltrotor-vtol) ([PX4-Autopilot#24028](https://github.com/PX4/PX4-Autopilot/pull/24028) and [PX4-gazebo-models#66](https://github.com/PX4/PX4-gazebo-models/pull/66)).
+  - [Faster than Real-time Simulation](../simulation/index.md#simulation_speed) ([PX4-Autopilot#24421](https://github.com/PX4/PX4-Autopilot/pull/24421), [PX4-Autopilot#23783](https://github.com/PX4/PX4-Autopilot/pull/23783))
 
 ### Ethernet
 

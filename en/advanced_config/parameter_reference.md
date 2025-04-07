@@ -14582,6 +14582,23 @@ Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &nbsp; |  |  | 0.1 | 10.0 | s 
 
+### COM_DLL_EXCEPT (`INT32`) {#COM_DLL_EXCEPT}
+
+Datalink loss exceptions.
+
+Specify modes in which datalink loss is ignored and the failsafe action not triggered.
+
+**Bitmask:**
+
+- `0`: Mission
+- `1`: Hold
+- `2`: Offboard
+
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 7 |  | 0 |  
+
 ### COM_DL_LOSS_T (`INT32`) {#COM_DL_LOSS_T}
 
 GCS connection loss time threshold.
@@ -15215,7 +15232,7 @@ Reboot | minValue | maxValue | increment | default | unit
 
 ### COM_QC_ACT (`INT32`) {#COM_QC_ACT}
 
-Set command after a quadchute.
+Set action after a quadchute.
 
 **Values:**
 
@@ -15254,7 +15271,7 @@ Specify modes in which RC loss is ignored and the failsafe action not triggered.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 31 |  | 0 |  
+&nbsp; | 0 | 7 |  | 0 |  
 
 ### COM_RC_ARM_HYST (`INT32`) {#COM_RC_ARM_HYST}
 
@@ -19238,7 +19255,7 @@ Reboot | minValue | maxValue | increment | default | unit
 
 Control allocation method.
 
-Selects the algorithm and desaturation method. If set to Automtic, the selection is based on the airframe (CA_AIRFRAME).
+Selects the algorithm and desaturation method. If set to Automatic, the selection is based on the airframe (CA_AIRFRAME).
 
 **Values:**
 
@@ -22710,6 +22727,7 @@ The MAVLink Mode defines the set of streamed messages (for example the vehicle's
 - `10`: Gimbal
 - `11`: Onboard Low Bandwidth
 - `12`: uAvionix
+- `13`: Low Bandwidth
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -22856,6 +22874,7 @@ The MAVLink Mode defines the set of streamed messages (for example the vehicle's
 - `10`: Gimbal
 - `11`: Onboard Low Bandwidth
 - `12`: uAvionix
+- `13`: Low Bandwidth
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -23002,6 +23021,7 @@ The MAVLink Mode defines the set of streamed messages (for example the vehicle's
 - `10`: Gimbal
 - `11`: Onboard Low Bandwidth
 - `12`: uAvionix
+- `13`: Low Bandwidth
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -25245,7 +25265,7 @@ Lower value -> More aggressive controller (beware overshoot/oscillations)
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0.1 | 100 | 0.01 | 1 |  
+&nbsp; | 0.1 | 100 | 0.01 | 1.0 |  
 
 ### PP_LOOKAHD_MAX (`FLOAT`) {#PP_LOOKAHD_MAX}
 
@@ -25253,7 +25273,7 @@ Maximum lookahead distance for the pure pursuit controller.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0.1 | 100 | 0.01 | 10 | m 
+&nbsp; | 0.1 | 100 | 0.01 | 10.0 | m 
 
 ### PP_LOOKAHD_MIN (`FLOAT`) {#PP_LOOKAHD_MIN}
 
@@ -25261,7 +25281,7 @@ Minimum lookahead distance for the pure pursuit controller.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0.1 | 100 | 0.01 | 1 | m 
+&nbsp; | 0.1 | 100 | 0.01 | 1.0 | m 
 
 ## RC
 
@@ -27476,6 +27496,7 @@ Return mode destination and flight path (home location, rally point, mission lan
 - `1`: Return to closest safe point other than home (mission landing pattern or rally point), via direct path. If no mission landing or rally points are defined return home via direct path. Always chose closest safe landing point if vehicle is a VTOL in hover mode.
 - `2`: Return to a planned mission landing, if available, using the mission path, else return to home via the reverse mission path. Do not consider rally points.
 - `3`: Return via direct path to closest destination: home, start of mission landing pattern or safe point. If the destination is a mission landing pattern, follow the pattern to land.
+- `4`: Return to the planned mission landing, or to home via the reverse mission path, whichever is closer by counting waypoints. Do not consider rally points.
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -27634,79 +27655,7 @@ Proportional gain for closed loop yaw controller.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 0 |  
-
-## Rover Control
-
-### RO_ACCEL_LIM (`FLOAT`) {#RO_ACCEL_LIM}
-
-Acceleration limit.
-
-Set to -1 to disable. For mecanum rovers this limit is used for longitudinal and lateral acceleration.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | -1 | 100 | 0.01 | -1 | m/s^2 
-
-### RO_DECEL_LIM (`FLOAT`) {#RO_DECEL_LIM}
-
-Deceleration limit.
-
-Set to -1 to disable. Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes. For mecanum rovers this limit is used for longitudinal and lateral deceleration.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | -1 | 100 | 0.01 | -1 | m/s^2 
-
-### RO_JERK_LIM (`FLOAT`) {#RO_JERK_LIM}
-
-Jerk limit.
-
-Set to -1 to disable. Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes. For mecanum rovers this limit is used for longitudinal and lateral jerk.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | -1 | 100 | 0.01 | -1 | m/s^3 
-
-### RO_MAX_THR_SPEED (`FLOAT`) {#RO_MAX_THR_SPEED}
-
-Speed the rover drives at maximum throttle.
-
-Used to linearly map speeds [m/s] to throttle values [-1. 1].
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 0 | m/s 
-
-### RO_SPEED_TH (`FLOAT`) {#RO_SPEED_TH}
-
-Speed measurement threshold.
-
-The minimum threshold for the speed measurement not to be interpreted as zero.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 0.1 | m/s 
-
-### RO_YAW_RATE_TH (`FLOAT`) {#RO_YAW_RATE_TH}
-
-Yaw rate measurement threshold.
-
-The minimum threshold for the yaw rate measurement not to be interpreted as zero.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 3 | deg/s 
-
-### RO_YAW_STICK_DZ (`FLOAT`) {#RO_YAW_STICK_DZ}
-
-Yaw stick deadzone.
-
-Percentage of stick input range that will be interpreted as zero around the stick centered value.
-
-Reboot | minValue | maxValue | increment | default | unit
---- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 1 | 0.01 | 0.1 |  
+&nbsp; | 0 | 100 | 0.01 | 0. |  
 
 ## Rover Differential
 
@@ -27984,7 +27933,7 @@ Used to cap how quickly the magnitude of yaw rate setpoints can increase. Set to
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | -1 | 10000 | 0.01 | -1 | deg/s^2 
+&nbsp; | -1 | 10000 | 0.01 | -1. | deg/s^2 
 
 ### RO_YAW_DECEL_LIM (`FLOAT`) {#RO_YAW_DECEL_LIM}
 
@@ -27994,7 +27943,7 @@ Used to cap how quickly the magnitude of yaw rate setpoints can decrease. Set to
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | -1 | 10000 | 0.01 | -1 | deg/s^2 
+&nbsp; | -1 | 10000 | 0.01 | -1. | deg/s^2 
 
 ### RO_YAW_RATE_I (`FLOAT`) {#RO_YAW_RATE_I}
 
@@ -28002,7 +27951,7 @@ Integral gain for closed loop yaw rate controller.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 0 |  
+&nbsp; | 0 | 100 | 0.01 | 0. |  
 
 ### RO_YAW_RATE_LIM (`FLOAT`) {#RO_YAW_RATE_LIM}
 
@@ -28012,7 +27961,7 @@ Used to cap yaw rate setpoints and map controller inputs to yaw rate setpoints i
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 10000 | 0.01 | 0 | deg/s 
+&nbsp; | 0 | 10000 | 0.01 | 0. | deg/s 
 
 ### RO_YAW_RATE_P (`FLOAT`) {#RO_YAW_RATE_P}
 
@@ -28020,9 +27969,69 @@ Proportional gain for closed loop yaw rate controller.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 0 |  
+&nbsp; | 0 | 100 | 0.01 | 0. |  
+
+### RO_YAW_RATE_TH (`FLOAT`) {#RO_YAW_RATE_TH}
+
+Yaw rate measurement threshold.
+
+The minimum threshold for the yaw rate measurement not to be interpreted as zero.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 100 | 0.01 | 3. | deg/s 
+
+### RO_YAW_STICK_DZ (`FLOAT`) {#RO_YAW_STICK_DZ}
+
+Yaw stick deadzone.
+
+Percentage of stick input range that will be interpreted as zero around the stick centered value.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 1 | 0.01 | 0.1 |  
 
 ## Rover Velocity Control
+
+### RO_ACCEL_LIM (`FLOAT`) {#RO_ACCEL_LIM}
+
+Acceleration limit.
+
+Set to -1 to disable. For mecanum rovers this limit is used for longitudinal and lateral acceleration.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | -1 | 100 | 0.01 | -1. | m/s^2 
+
+### RO_DECEL_LIM (`FLOAT`) {#RO_DECEL_LIM}
+
+Deceleration limit.
+
+Set to -1 to disable. Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes. For mecanum rovers this limit is used for longitudinal and lateral deceleration.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | -1 | 100 | 0.01 | -1. | m/s^2 
+
+### RO_JERK_LIM (`FLOAT`) {#RO_JERK_LIM}
+
+Jerk limit.
+
+Set to -1 to disable. Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes. For mecanum rovers this limit is used for longitudinal and lateral jerk.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | -1 | 100 | 0.01 | -1. | m/s^3 
+
+### RO_MAX_THR_SPEED (`FLOAT`) {#RO_MAX_THR_SPEED}
+
+Speed the rover drives at maximum throttle.
+
+Used to linearly map speeds [m/s] to throttle values [-1. 1].
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 100 | 0.01 | 0. | m/s 
 
 ### RO_SPEED_I (`FLOAT`) {#RO_SPEED_I}
 
@@ -28030,7 +28039,7 @@ Integral gain for ground speed controller.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.001 | 0 |  
+&nbsp; | 0 | 100 | 0.001 | 0. |  
 
 ### RO_SPEED_LIM (`FLOAT`) {#RO_SPEED_LIM}
 
@@ -28040,7 +28049,7 @@ Used to cap speed setpoints and map controller inputs to speed setpoints in Posi
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | -1 | 100 | 0.01 | -1 | m/s 
+&nbsp; | -1 | 100 | 0.01 | -1. | m/s 
 
 ### RO_SPEED_P (`FLOAT`) {#RO_SPEED_P}
 
@@ -28048,7 +28057,17 @@ Proportional gain for ground speed controller.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&nbsp; | 0 | 100 | 0.01 | 0 |  
+&nbsp; | 0 | 100 | 0.01 | 0. |  
+
+### RO_SPEED_TH (`FLOAT`) {#RO_SPEED_TH}
+
+Speed measurement threshold.
+
+Set to -1 to disable. The minimum threshold for the speed measurement not to be interpreted as zero.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; | 0 | 100 | 0.01 | 0.1 | m/s 
 
 ## Runway Takeoff
 
@@ -30336,6 +30355,16 @@ Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &nbsp; |  |  |  | 0.0 |  
 
+### SENS_DPRES_REV (`INT32`) {#SENS_DPRES_REV}
+
+Reverse differential pressure sensor readings.
+
+Reverse the raw measurements of all differential pressure sensors. This can be enabled if the sensors have static and dynamic ports swapped.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; |  |  |  | Disabled (0) |  
+
 ### SENS_FLOW_MAXHGT (`FLOAT`) {#SENS_FLOW_MAXHGT}
 
 Maximum height above ground when reliant on optical flow.
@@ -31403,7 +31432,7 @@ Configure on which serial port to run Lightware SF45 Rangefinder (serial).
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
-&check; |  |  |  | 102 |  
+&check; |  |  |  | 0 |  
 
 ### SENS_EN_SHT3X (`INT32`) {#SENS_EN_SHT3X}
 
@@ -33793,11 +33822,13 @@ Reboot | minValue | maxValue | increment | default | unit
 
 Dataman storage backend.
 
+If the board supports persistent storage (i.e., the KConfig variable DATAMAN_PERSISTENT_STORAGE is set), the 'Default storage' backend uses a file on persistent storage. If not supported, this backend uses non-persistent storage in RAM.
+
 **Values:**
 
-- `-1`: Disabled
-- `0`: default (SD card)
-- `1`: RAM (not persistent)
+- `-1`: Dataman disabled
+- `0`: Default storage
+- `1`: RAM storage
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -36120,6 +36151,14 @@ Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &nbsp; | 20000 | 1000000 |  | 1000000 |  
 
+### CANNODE_PUB_IMU (`INT32`) {#CANNODE_PUB_IMU}
+
+Enable RawIMU pub.
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&nbsp; |  | 1 |  | Disabled (0) |  
+
 ### CANNODE_PUB_MBD (`INT32`) {#CANNODE_PUB_MBD}
 
 Enable MovingBaselineData publication.
@@ -37408,7 +37447,7 @@ Reboot | minValue | maxValue | increment | default | unit
 
 Airspeed-less front transition time (open loop).
 
-The duration of the front transition when there is no airspeed feedback available.
+The duration of the front transition when there is no airspeed feedback available. When airspeed is used, transition timeout is declared if airspeed does not reach VT_ARSP_BLEND after this time.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
@@ -37520,7 +37559,7 @@ Reboot | minValue | maxValue | increment | default | unit
 
 Front transition timeout.
 
-Time in seconds after which transition will be cancelled. Disabled if set to 0.
+Time in seconds after which transition will be cancelled.
 
 Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---

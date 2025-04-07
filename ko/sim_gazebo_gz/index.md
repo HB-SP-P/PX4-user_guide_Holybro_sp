@@ -67,12 +67,6 @@ Note that all gazebo make targets have the prefix `gz_`.
 
 All [vehicle models](../sim_gazebo_gz/vehicles.md) (and [worlds](#specify-world)) are included as a submodule from the [Gazebo Models Repository](../sim_gazebo_gz/gazebo_models.md) repository.
 
-:::warning
-The Advanced Lift Drag Plugin that is required to run the Advanced Plane is not yet part of the Gazebo distribution, so the Advanced Plane will not yet fly: [PX4-Autopilot#22337](https://github.com/PX4/PX4-Autopilot/issues/22337).
-
-As a workaround to enable Advanced Plane, you can compile the `gz-sim` library from [Gazebo source code](https://github.com/gazebosim/gz-sim), go into the `build/lib` directory, copy out the advanced lift drag plugin `.so` file (depending on the exact Gazebo Version this is called something along the lines of `libgz-sim7-advanced-lift-drag-system.so`), and paste this into the `~/.gz/sim/plugins` folder.
-:::
-
 The commands above launch a single vehicle with the full UI.
 _QGroundControl_ should be able to automatically connect to the simulated vehicle.
 
@@ -180,6 +174,41 @@ This can be ignored:
 
 :::
 
+### Change Simulation Speed
+
+PX4 SITL can be run faster or slower than real-time when using Gazebo.
+
+The speed factor is set using the environment variable `PX4_SIM_SPEED_FACTOR`.
+For example, to run the Gazebo simulation of the X500 frame at 2 times the real time speed:
+
+```sh
+PX4_SIM_SPEED_FACTOR=2 make px4_sitl gz_x500
+```
+
+실시간 절반으로 실행하려면:
+
+```sh
+PX4_SIM_SPEED_FACTOR=0.5 make px4_sitl gz_x500
+```
+
+You can apply the factor to all SITL runs in the current session using `EXPORT`:
+
+```sh
+export PX4_SIM_SPEED_FACTOR=2
+make px4_sitl gz_x500
+```
+
+:::info
+At some point IO or CPU will limit the speed that is possible on your machine and it will be slowed down "automatically".
+강력한 데스크탑 컴퓨터는 일반적으로 약 6-10x에서 시뮬레이션할 수 있으며, 노트북의 경우의 최고 속도는 약 3-4x 입니다.
+:::
+
+:::info
+The simulators are run in _lockstep_, which means that Gazebo runs the simulator at the same speed as PX4 (the GZBridge sets the PX4 time on every sim step, in the `clockCallback`).
+In addition to being a precondition for running the simulation faster/slower than real-time, this also allows you to pause the simulation in order to step through code.
+Lockstep cannot be disabled on Gazebo.
+:::
+
 ## Usage/Configuration Options
 
 The startup pipeline allows for highly flexible configuration.
@@ -250,7 +279,13 @@ where `ARGS` is a list of environment variables including:
   The default rendering engine (OGRE 2) is not well supported on some platforms/environments.
   Specify `PX4_GZ_SIM_RENDER_ENGINE=ogre` to set the rendering engine to OGRE 1 if you have rendering issues when running PX4 on a virtual machine.
 
-The PX4 Gazebo worlds and and models databases [can be found on Github here](https://github.com/PX4/PX4-gazebo-models).
+- `PX4_SIM_SPEED_FACTOR`:
+  Sets the speed factor to run the simulation at [faster/slower than realtime](#change-simulation-speed).
+
+- `PX4_GZ_FOLLOW_OFFSET_X`, `PX4_GZ_FOLLOW_OFFSET_Y`, `PX4_GZ_FOLLOW_OFFSET_Z`:
+  Set the relative offset of the follow camera to the vehicle.
+
+The PX4 Gazebo worlds and and models databases [can be found on GitHub here](https://github.com/PX4/PX4-gazebo-models).
 
 :::info
 `gz_env.sh.in` is compiled and made available in `$PX4_DIR/build/px4_sitl_default/rootfs/gz_env.sh`
@@ -262,33 +297,33 @@ Here are some examples of the different scenarios covered above.
 
 1. **Start simulator + default world + spawn vehicle at default pose**
 
-   ```sh
-   PX4_SYS_AUTOSTART=4001 PX4_SIM_MODEL=gz_x500 ./build/px4_sitl_default/bin/px4
-   ```
+  ```sh
+  PX4_SYS_AUTOSTART=4001 PX4_SIM_MODEL=gz_x500 ./build/px4_sitl_default/bin/px4
+  ```
 
 2. **Start simulator + default world + spawn vehicle at custom pose (y=2m)**
 
-   ```sh
-   PX4_SYS_AUTOSTART=4001 PX4_GZ_MODEL_POSE="0,2" PX4_SIM_MODEL=gz_x500 ./build/px4_sitl_default/bin/px4
-   ```
+  ```sh
+  PX4_SYS_AUTOSTART=4001 PX4_GZ_MODEL_POSE="0,2" PX4_SIM_MODEL=gz_x500 ./build/px4_sitl_default/bin/px4
+  ```
 
 3. **Start simulator + default world + link to existing vehicle**
 
-   ```sh
-   PX4_SYS_AUTOSTART=4001 PX4_GZ_MODEL_NAME=x500 ./build/px4_sitl_default/bin/px4
-   ```
+  ```sh
+  PX4_SYS_AUTOSTART=4001 PX4_GZ_MODEL_NAME=x500 ./build/px4_sitl_default/bin/px4
+  ```
 
 4. **Start simulator in standalone mode + connect to Gazebo instance running default world**
 
-   ```sh
-   PX4_GZ_STANDALONE=1 PX4_SYS_AUTOSTART=4001 PX4_SIM_MODEL=gz_x500 ./build/px4_sitl_default/bin/px4
-   ```
+  ```sh
+  PX4_GZ_STANDALONE=1 PX4_SYS_AUTOSTART=4001 PX4_SIM_MODEL=gz_x500 ./build/px4_sitl_default/bin/px4
+  ```
 
-   In a separate terminal run:
+  In a separate terminal run:
 
-   ```sh
-   python /path/to/simulation-gazebo
-   ```
+  ```sh
+  python /path/to/simulation-gazebo
+  ```
 
 ## Adding New Worlds and Models
 
@@ -304,53 +339,43 @@ To add a new model:
 
 2. Define the default parameters for Gazebo in the airframe configuration file (this example is from [x500 quadcopter](https://github.com/PX4/PX4-Autopilot/blob/main/ROMFS/px4fmu_common/init.d-posix/airframes/4001_gz_x500)):
 
-   ```ini
-   PX4_SIMULATOR=${PX4_SIMULATOR:=gz}
-   PX4_GZ_WORLD=${PX4_GZ_WORLD:=default}
-   PX4_SIM_MODEL=${PX4_SIM_MODEL:=<your model name>}
-   ```
+  ```ini
+  PX4_SIMULATOR=${PX4_SIMULATOR:=gz}
+  PX4_GZ_WORLD=${PX4_GZ_WORLD:=default}
+  PX4_SIM_MODEL=${PX4_SIM_MODEL:=<your model name>}
+  ```
 
-   - `PX4_SIMULATOR=${PX4_SIMULATOR:=gz}` sets the default simulator (Gz) for that specific airframe.
+  - `PX4_SIMULATOR=${PX4_SIMULATOR:=gz}` sets the default simulator (Gz) for that specific airframe.
 
-   - `PX4_GZ_WORLD=${PX4_GZ_WORLD:=default}` sets the [default world](https://github.com/PX4/PX4-gazebo-models/blob/main/worlds/default.sdf) for that specific airframe.
+  - `PX4_GZ_WORLD=${PX4_GZ_WORLD:=default}` sets the [default world](https://github.com/PX4/PX4-gazebo-models/blob/main/worlds/default.sdf) for that specific airframe.
 
-   - Setting the default value of `PX4_SIM_MODEL` lets you start the simulation with just:
+  - Setting the default value of `PX4_SIM_MODEL` lets you start the simulation with just:
 
-     ```sh
-     PX4_SYS_AUTOSTART=<your new airframe id> ./build/px4_sitl_default/bin/px4
-     ```
+    ```sh
+    PX4_SYS_AUTOSTART=<your new airframe id> ./build/px4_sitl_default/bin/px4
+    ```
 
 3. Add CMake Target for the [airframe](https://github.com/PX4/PX4-Autopilot/blob/main/ROMFS/px4fmu_common/init.d-posix/airframes/CMakeLists.txt).
 
-   - If you plan to use "regular" mode, add your model SDF to `Tools/simulation/gz/models/`.
-   - If you plan to use _standalone_ mode, add your model SDF to `~/.simulation-gazebo/models/`
+  - If you plan to use "regular" mode, add your model SDF to `Tools/simulation/gz/models/`.
+  - If you plan to use _standalone_ mode, add your model SDF to `~/.simulation-gazebo/models/`
 
-   You can of course also use both.
+  You can of course also use both.
 
 ### Adding a World
 
 To add a new world:
 
 1. Add your world to the list of worlds found in the [`CMakeLists.txt` here](https://github.com/PX4/PX4-Autopilot/blob/main/src/modules/simulation/gz_bridge/CMakeLists.txt).
-   This is required in order to allow `CMake` to generate correct targets.
+  This is required in order to allow `CMake` to generate correct targets.
 
-   - If you plan to use "normal" mode, add your world sdf to `Tools/simulation/gz/worlds/`.
-   - If you plan to use _standalone_ mode, add your world SDF to `~/.simulation-gazebo/worlds/`
+  - If you plan to use "normal" mode, add your world sdf to `Tools/simulation/gz/worlds/`.
+  - If you plan to use _standalone_ mode, add your world SDF to `~/.simulation-gazebo/worlds/`
 
 :::info
 As long as the world file and the model file are in the Gazebo search path (`GZ_SIM_RESOURCE_PATH`) it is not necessary to add them to the PX4 world and model directories.
 However, `make px4_sitl gz_<model>_<world>` won't work with them.
 :::
-
-## PX4-Gazebo Time Synchronization
-
-Unlike the Gazebo Classic and jMAVSim simulators, PX4 and Gazebo do not implement a lockstep mechanism.
-
-During Gazebo simulations PX4 subscribes to the Gazebo `\clock` topic and uses it as clock source.
-This guarantees that PX4 will always wait for Gazebo before moving forward in time, even if Gazebo is running with real time factors different from 1.
-
-Note, however, that as the lockstep is missing, Gazebo will never wait for PX4 to finish its computations.
-In the worst case scenario, PX4 can completely go offline and Gazebo will keep running, with obvious crashes of the simulated drone.
 
 ## 다중 차량 시뮬레이션
 

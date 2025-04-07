@@ -118,78 +118,78 @@ This considerably speeds up the build process but requires that the Agent depend
 
 1. Створіть директорію робочого простору для агента:
 
-   ```sh
-   mkdir -p ~/px4_ros_uxrce_dds_ws/src
-   ```
+  ```sh
+  mkdir -p ~/px4_ros_uxrce_dds_ws/src
+  ```
 
 2. Clone the source code for the eProsima [Micro-XRCE-DDS-Agent](https://github.com/eProsima/Micro-XRCE-DDS-Agent) to the `/src` directory (the `main` branch is cloned by default):
 
-   ```sh
-   cd ~/px4_ros_uxrce_dds_ws/src
-   git clone -b 2.4.2 https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
-   ```
+  ```sh
+  cd ~/px4_ros_uxrce_dds_ws/src
+  git clone -b v2.4.2 https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
+  ```
 
 3. Source the ROS 2 development environment, and compile the workspace using `colcon`:
 
-   :::: tabs
+  :::: tabs
 
-   ::: tab humble
+  ::: tab humble
 
-   ```sh
-   source /opt/ros/humble/setup.bash
-   colcon build
-   ```
-
-
-:::
-
-   ::: tab foxy
-
-   ```sh
-   source /opt/ros/foxy/setup.bash
-   colcon build
-   ```
+  ```sh
+  source /opt/ros/humble/setup.bash
+  colcon build
+  ```
 
 
 :::
 
-   ::::
+  ::: tab foxy
 
-   This builds all the folders under `/src` using the sourced toolchain.
+  ```sh
+  source /opt/ros/foxy/setup.bash
+  colcon build
+  ```
+
+
+:::
+
+  ::::
+
+  This builds all the folders under `/src` using the sourced toolchain.
 
 Для запуску агента micro XRCE-DDS в робочому просторі:
 
 1. Source the `local_setup.bash` to make the executables available in the terminal (also `setup.bash` if using a new terminal).
 
-   :::: tabs
+  :::: tabs
 
-   ::: tab humble
+  ::: tab humble
 
-   ```sh
-   source /opt/ros/humble/setup.bash
-   source install/local_setup.bash
-   ```
-
-
-:::
-
-   ::: tab foxy
-
-   ```sh
-   source /opt/ros/foxy/setup.bash
-   source install/local_setup.bash
-   ```
+  ```sh
+  source /opt/ros/humble/setup.bash
+  source install/local_setup.bash
+  ```
 
 
 :::
 
-   ::::
+  ::: tab foxy
+
+  ```sh
+  source /opt/ros/foxy/setup.bash
+  source install/local_setup.bash
+  ```
+
+
+:::
+
+  ::::
 
 1) Запустіть агента з налаштуваннями для підключення до клієнта uXRCE-DDS, який працює на симуляторі:
 
-   ```sh
-   MicroXRCEAgent udp4 -p 8888
-   ```
+  ```sh
+  MicroXRCEAgent udp4 -p 8888
+  ```
 
 ## Запуск агента та клієнта
 
@@ -314,7 +314,7 @@ By default the client is started on localhost UDP port `8888` with no additional
 Environment variables are provided that override some [UXRCE-DDS parameters](../advanced_config/parameter_reference.md#uxrce-dds-client).
 Це дозволяє користувачам створювати власні файли запуску для своїх симуляцій:
 
-- `PX4_UXRCE_DDS_NS`: Use this to specify the topic [namespace](#customizing-the-topic-namespace).
+- `PX4_UXRCE_DDS_NS`: Use this to specify the topic [namespace](#customizing-the-namespace)).
 - `ROS_DOMAIN_ID`: Use this to replace [UXRCE_DDS_DOM_ID](../advanced_config/parameter_reference.md#UXRCE_DDS_DOM_ID).
 - `PX4_UXRCE_DDS_PORT`: Use this to replace [UXRCE_DDS_PRT](../advanced_config/parameter_reference.md#UXRCE_DDS_PRT).
 
@@ -354,16 +354,16 @@ Note that all the messages from PX4 source code are present in the repository, b
 
 :::
 
-## Налаштування простору імен теми
+## Customizing the Namespace
 
-Custom topic namespaces can be applied at build time (changing [dds_topics.yaml](https://github.com/PX4/PX4-Autopilot/blob/main/src/modules/uxrce_dds_client/dds_topics.yaml)) or at runtime (which is useful for multi vehicle operations):
+Custom topic and service namespaces can be applied at build time (changing [dds_topics.yaml](https://github.com/PX4/PX4-Autopilot/blob/main/src/modules/uxrce_dds_client/dds_topics.yaml)) or at runtime (which is useful for multi vehicle operations):
 
 - One possibility is to use the `-n` option when starting the [uxrce_dds_client](../modules/modules_system.md#uxrce-dds-client) from command line.
   Ця техніка може бути використана як у симуляторах, так і на реальних транспортних засобах.
 - A custom namespace can be provided for simulations (only) by setting the environment variable `PX4_UXRCE_DDS_NS` before starting the simulation.
 
 :::info
-Changing the namespace at runtime will append the desired namespace as a prefix to all `topic` fields in [dds_topics.yaml](https://github.com/PX4/PX4-Autopilot/blob/main/src/modules/uxrce_dds_client/dds_topics.yaml).
+Changing the namespace at runtime will append the desired namespace as a prefix to all `topic` fields in [dds_topics.yaml](https://github.com/PX4/PX4-Autopilot/blob/main/src/modules/uxrce_dds_client/dds_topics.yaml) and all [service servers](#dds-ros-2-services).
 Отже, команди, подібні до:
 
 ```sh
@@ -465,12 +465,12 @@ Each (`topic`,`type`) pairs defines:
 
 1. A new `publication`, `subscription`, or `subscriptions_multi`, depending on the list to which it is added.
 2. The topic _base name_, which **must** coincide with the desired uORB topic name that you want to publish/subscribe.
-   It is identified by the last token in `topic:` that starts with `/` and does not contains any `/` in it.
-   `vehicle_odometry`, `vehicle_status` and `offboard_control_mode` are examples of base names.
+  It is identified by the last token in `topic:` that starts with `/` and does not contains any `/` in it.
+  `vehicle_odometry`, `vehicle_status` and `offboard_control_mode` are examples of base names.
 3. The topic [namespace](https://design.ros2.org/articles/topic_and_service_names.html#namespaces).
-   За замовчуванням встановлено ​​на:
-   - `/fmu/out/` for topics that are _published_ by PX4.
-   - `/fmu/in/` for topics that are _subscribed_ by PX4.
+  За замовчуванням встановлено ​​на:
+  - `/fmu/out/` for topics that are _published_ by PX4.
+  - `/fmu/in/` for topics that are _subscribed_ by PX4.
 4. The message type (`VehicleOdometry`, `VehicleStatus`, `OffboardControlMode`, etc.) and the ROS 2 package (`px4_msgs`) that is expected to provide the message definition.
 
 `subscriptions` and `subscriptions_multi` allow us to choose the uORB topic instance that ROS 2 topics are routed to: either a shared instance that may also be getting updates from internal PX4 uORB publishers, or a separate instance that is reserved for ROS2 publications, respectively.
@@ -496,6 +496,17 @@ Add a topic to the `subscriptions_multi` section to:
 
 Ви можете довільно змінювати конфігурацію.
 Наприклад, ви можете використовувати різні простори імен за замовчуванням або використовувати власний пакет для зберігання визначень повідомлень.
+
+## DDS (ROS 2) Services
+
+PX4 uXRCE-DDS middleware supports [ROS 2 services](https://docs.ros.org/en/jazzy/Concepts/Basic/About-Services.html).
+These are remote procedure calls, from one node to another, which return a result.
+They simplify communication between ROS 2 nodes and PX4 by grouping the request and response behaviour, and ensuring that replies are only returned to the specific requesting user.
+
+A service server is the entity that will accept a remote procedure request, perform some computation on it, and return the result.
+For example, the `/fmu/vehicle_command` service server defined in [`px4_msgs::srv::VehicleCommand`](https://github.com/PX4/px4_msgs/blob/main/srv/VehicleCommand.srv) can be called by ROS 2 applications to send PX4 [VehicleCommand](../msg_docs/VehicleCommand.md) uORB messages and receive PX4 [VehicleCommandAck](../msg_docs/VehicleCommandAck.md) uORB messages in response.
+
+For a list of services, details and examples see the [service documentation](../ros2/user_guide.md#px4-ros-2-service-servers) in the ROS 2 User Guide.
 
 ## Посібник міграції з Fast-RTPS на uXRCE-DDS
 
